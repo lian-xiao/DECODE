@@ -1,0 +1,205 @@
+model_config:
+  drug_dim: 768
+  dose_dim: 1
+  rna_dim: 978
+  pheno_dim: 1783
+  num_moa_classes: 12  
+  
+  dose_embedding_dim: 64
+  dose_scaling_method: 'gate'  # options: 'multiply', 'concat', 'gate'
+  
+  encoder_hidden_dims: [1024, 512] #[1024,512] [1024, 256]
+  simulator_hidden_dims: [512, 1024] #[512,1024] [256, 1024]
+  fusion_dim: 256 # 1024
+  classifier_hidden_dims: [512, 256] #[512,256] [256, 128]
+  dropout_rate: 0.1
+  batch_norm: true
+  activation: 'relu'  # options: 'relu', 'gelu', 'leaky_relu', 'tanh', 'elu'
+  
+  shared_encoder_hidden_dims: [256, 128]  
+  unique_encoder_hidden_dims: [256, 128]
+  
+  feature_fusion_strategy: 'add_mean'  # options: 'add_mean', 'attention'
+
+  use_attention: false
+  attention_heads: 8
+  attention_dropout: 0.1
+  
+  use_gau_fusion: true
+  gau_layers: 1
+  gau_attention_key_size: 64
+
+  reconstruction_loss_weight: 1.0  # weight for reconstruction loss
+  classification_loss_weight: 0.0  # set 0 for stage1, set >0 for stage2
+  shared_contrastive_loss_weight: 1.0  
+  orthogonal_loss_weight: 0.5  # 正交性约束权重
+  
+  # training stage control
+  is_stage1: true  # true = stage1 (reconstruction + feature learning), false = stage2 (classification)
+
+  # reconstruction loss settings
+  reconstruction_loss_type: 'tabular'  # options: 'mse', 'mae', 'huber', 'cosine', 'mmd', 'tabular'
+
+  mmd_kernel: 'energy'     
+  mmd_blur: 0.05           
+  mmd_scaling: 0.5        
+  mmd_downsample: 1        
+  
+
+  tabular_shared: 128     
+  
+
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  optimizer: 'adamw'  # options: 'adam', 'adamw'
+  scheduler: 'reduce_lr'  # options: 'reduce_lr', 'cosine'
+  scheduler_patience: 5
+  scheduler_factor: 0.5
+
+data:
+  dataset_name: "normalized_variable_selected_highRepUnion_nRep2" # variable_selected_
+  batch_size: 256
+  num_workers: 0
+  pin_memory: true
+  shuffle: true
+  split_strategy: 'plate' 
+  train_split: 0.7
+  val_split: 0.1
+  test_split: 0.2
+  
+  preload_features: true
+  preload_metadata: true
+  return_metadata: true
+  device: 'cpu'
+  random_seed: 42
+  
+  feature_groups_only: null  
+  metadata_columns_only: ['Metadata_moa', 'Metadata_Plate','Metadata_SMILES']
+  
+  moa_column: 'Metadata_moa'
+  save_label_encoder: true
+  
+  feature_group_mapping:
+    0: 'pheno'   
+    1: 'rna'      
+    2: 'drug'     
+    3: 'dose'     
+  
+
+  normalize_features: false
+  normalization_method: 'standardize'  # options: 'standardize', 'minmax', 'none'
+  exclude_modalities: ['dose']  
+  save_scalers: true
+  
+
+
+training:
+  max_epochs: 100
+  val_check_interval: 1.0
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  precision: 32
+  independent_training: false  # false = sequential (use stage1 weights)  
+
+  early_stopping:
+    monitor: 'val_loss'
+    patience: 15
+    mode: 'min'
+    min_delta: 0.0001
+    verbose: true
+  
+
+  checkpoint:
+    monitor: 'val_loss'  
+    mode: 'min'
+    save_top_k: 1
+    save_last: false
+    filename: 'multimodal-moa-{epoch:02d}-{val_loss:.6f}'
+    auto_insert_metric_name: false
+
+
+evaluation:
+  scenarios:
+    - 'no_missing'     
+    - 'pheno_missing'  
+    - 'rna_missing'  
+    - 'both_missing'  
+  
+  metrics:
+    reconstruction:
+      - 'mse'
+      - 'mae'
+      - 'rmse'
+      - 'r2'
+      - 'overall_pearson'
+    classification:
+      - 'accuracy'
+      - 'f1_macro'
+      - 'f1_weighted'
+      - 'precision_macro'
+      - 'recall_macro'
+      - 'roc_auc_macro'
+
+
+experiment:
+  name: 'multimodal_moa_prediction'
+  version: 'v1.0'
+  description: 'Multi-modal MOA prediction with missing modality simulation'
+  
+
+  log_every_n_steps: 50
+  save_dir: './experiments/multimodal_moa'
+
+
+architecture_notes:
+  feature_decomposition: |
+    The model uses shared-unique feature decomposition:
+    - Shared features: common across all modalities, learned via a shared encoder
+    - Unique features: modality-specific, learned via separate encoders
+    - Feature fusion: combines shared and unique features for downstream tasks
+  
+  scenarios: |
+    The model handles four missing-modality scenarios:
+    1. No Missing: Drug + RNA + Phenotype => Feature decomposition => MOA
+    2. Phenotype Missing: Drug + RNA => Feature decomposition => Simulated Phenotype => MOA
+    3. RNA Missing: Drug + Phenotype => Feature decomposition => Simulated RNA => MOA
+    4. Both Missing: Drug => Feature decomposition => Simulated RNA + Simulated Phenotype => MOA
+  
+  training_stages: |
+    Manual two-stage training (controlled by configuration):
+    Stage 1 (is_stage1=true): Reconstruction + Feature decomposition learning
+      - reconstruction_loss_weight > 0, classification_loss_weight = 0
+    Stage 2 (is_stage1=false): MOA classification (reconstruction can be kept for regularization)
+      - classification_loss_weight > 0, reconstruction_loss_weight may be >0 or =0
+
+loss_explanation:
+  reconstruction_loss: |
+    Reconstructs missing modalities using fused features (shared + unique).
+    In stage 1 all modalities are reconstructed from 'no_missing' scenario.
+    In stage 2 only missing modalities are reconstructed as needed.
+    
+  classification_loss: |
+    Cross-entropy style loss for MOA prediction.
+    FocalLoss is used to mitigate class imbalance.
+    
+  shared_contrastive_loss: |
+    InfoNCE-style loss encouraging shared features of the same sample
+    across modalities to be similar, and different samples to be dissimilar.
+    
+  orthogonal_loss: |
+    Encourages disentanglement:
+    1. Unique features orthogonal to shared features
+    2. Unique features of different modalities orthogonal to each other
+
+
+usage_recommendations:
+  stage1_training: |
+    - Set is_stage1=true and classification_loss_weight=0
+    - Focus on reconstruction quality and feature decomposition
+    - Monitor train_recon_loss, train_contrastive_loss, train_orthogonal_loss
+    
+  stage2_training: |
+    - Set is_stage1=false and classification_loss_weight>0
+    - Load pretrained weights from stage 1
+    - Optionally keep reconstruction_loss_weight>0 for regularization
+    - Monitor train_moa_loss and val_loss for early stopping

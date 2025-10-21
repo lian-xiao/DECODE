@@ -1,0 +1,330 @@
+name,smiles,label100,phase,moa,drug_category,label
+peficitinib,NC(=O)c1cnc2[nH]ccc2c1N[C@H]1[C@H]2C[C@H]3C[C@@H]1C[C@](O)(C3)C2,0,Phase 3,JAK inhibitor,noncancer,17
+RGFP966,Nc1cc(F)ccc1NC(=O)\C=C\c1cnn(C\C=C\c2ccccc2)c1,1,Preclinical,HDAC inhibitor,targeted cancer,14
+edrophonium,CC[N+](C)(C)c1cccc(O)c1,0,Launched,acetylcholinesterase inhibitor,noncancer,29
+iodophenpropit,Ic1ccc(CCNC(=N)SCCCc2c[nH]cn2)cc1,0,Preclinical,histamine receptor antagonist,noncancer,63
+isamoltane,CC(C)NCC(O)COc1ccccc1-n1cccc1,0,Phase 1,adrenergic receptor antagonist,noncancer,33
+SB-221284,CSc1cc2CCN(C(=O)Nc3cccnc3)c2cc1C(F)(F)F,0,Preclinical,serotonin receptor antagonist,noncancer,86
+zolpidem,CN(C)C(=O)Cc1c(nc2ccc(C)cn12)-c1ccc(C)cc1,0,Launched,benzodiazepine receptor agonist,noncancer,44
+L-701252,Oc1c(C(=O)C2CC2)c(=O)[nH]c2cc(Cl)ccc12,0,Preclinical,glutamate receptor antagonist,noncancer,60
+apalutamide,CNC(=O)c1ccc(cc1F)N1C(=S)N(C(=O)C11CCC1)c1cnc(C#N)c(c1)C(F)(F)F,0,Launched,androgen receptor antagonist,targeted cancer,34
+RU-28318,CCC[C@@H]1CC2=CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]3(O)CCC(O)=O)[C@H]12,0,Phase 2,cytochrome P450 inhibitor,noncancer,50
+prulifloxacin,CC1Sc2c(C(O)=O)c(=O)c3cc(F)c(cc3n12)N1CCN(Cc2oc(=O)oc2C)CC1,0,Launched,bacterial DNA gyrase inhibitor,noncancer,41
+cevimeline,C[C@H]1O[C@]2(CS1)CN1CCC2CC1.C[C@@H]1O[C@@]2(CS1)CN1CCC2CC1,0,Launched,acetylcholine receptor agonist,Unknown,27
+AZD8330,Cc1cc(C(=O)NOCCO)c(Nc2ccc(I)cc2F)n(C)c1=O,1,Phase 1,MEK inhibitor,targeted cancer,18
+nibentan,CCN(CC)CCCCC(NC(=O)c1ccc(cc1)[N+]([O-])=O)c1ccccc1,0,Phase 2,potassium channel blocker,noncancer,78
+atropine,CN1[C@H]2CC[C@@H]1C[C@@H](C2)OC(=O)C(CO)c1ccccc1,0,Launched,acetylcholine receptor antagonist,noncancer,28
+SR-57227A,NC1CCN(CC1)c1cccc(Cl)n1,1,Phase 2,serotonin receptor agonist,noncancer,85
+cebranopadol,CN(C)[C@]1(CC[C@@]2(CC1)OCCc1c2[nH]c2ccc(F)cc12)c1ccccc1,1,Phase 3,opioid receptor agonist,noncancer,73
+tinidazole,CCS(=O)(=O)CCn1c(C)ncc1[N+]([O-])=O,0,Launched,antiprotozoal agent,noncancer,38
+calcifediol,C[C@H](CCCC(C)(C)O)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1/C[C@@H](O)CCC1=C,0,Launched,vitamin D receptor agonist,noncancer,92
+fluphenazine,OCCN1CCN(CCCN2c3ccccc3Sc3ccc(cc23)C(F)(F)F)CC1,0,Launched,dopamine receptor antagonist,noncancer,53
+F351,Cc1ccc(=O)n(c1)-c1ccc(O)cc1,0,Phase 2,TGF beta receptor inhibitor,noncancer,25
+alvocidib,CN1CC[C@@H]([C@H](O)C1)c1c(O)cc(O)c2c1oc(cc2=O)-c1ccccc1Cl,1,Phase 2,CDK inhibitor,Unknown,5
+honokiol,Oc1ccc(cc1CC=C)-c1cc(CC=C)ccc1O,0,Phase 3,AKT inhibitor,targeted cancer,0
+delapril,CCOC(=O)[C@H](CCc1ccccc1)N[C@@H](C)C(=O)N(CC(O)=O)C1Cc2ccccc2C1,0,Launched,angiotensin converting enzyme inhibitor,noncancer,35
+fruquintinib,CNC(=O)c1c(C)oc2cc(Oc3ncnc4cc(OC)c(OC)cc34)ccc12,0,Phase 3,VEGFR inhibitor,targeted cancer,26
+bupranolol,Cc1ccc(Cl)c(OCC(O)CNC(C)(C)C)c1,0,Launched,adrenergic receptor antagonist,noncancer,33
+NSC-3852,Oc1ccc([N+][O-])c2cccnc12,1,Preclinical,HDAC inhibitor,targeted cancer,14
+azelastine,CN1CCCC(CC1)n1nc(Cc2ccc(Cl)cc2)c2ccccc2c1=O,0,Launched,histamine receptor antagonist,noncancer,63
+tacalcitol,CC(C)[C@H](O)CC[C@@H](C)[C@H]1CC[C@@H]2[C@]1(C)CCC\C2=C/C=C1/C[C@@H](O)C[C@H](O)C1=C,1,Launched,vitamin D receptor agonist,noncancer,92
+WZ-3146,CN1CCN(CC1)c1ccc(Nc2ncc(Cl)c(Oc3cccc(NC(=O)C=C)c3)n2)cc1,1,Preclinical,EGFR inhibitor,targeted cancer,10
+CGP-13501,CC(C)(Cc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C)C=O,0,Preclinical,GABA receptor modulator,noncancer,12
+meloxicam,CN1C(C(=O)Nc2ncc(C)s2)C(=O)c2ccccc2S1(=O)=O,1,Launched,cyclooxygenase inhibitor,noncancer,49
+DRF053-(R),CC[C@H](CO)Nc1nc(Nc2cccc(c2)-c2ccccn2)c2ncn(C(C)C)c2n1,0,Preclinical,CDK inhibitor,targeted cancer,5
+aceclidine,CC(=O)OC1CN2CCC1CC2,0,Launched,acetylcholine receptor agonist,noncancer,27
+guanfacine,NC(=N)NC(=O)Cc1c(Cl)cccc1Cl,0,Launched,adrenergic receptor agonist,noncancer,32
+givinostat,CCN(CC)Cc1ccc2cc(COC(=O)Nc3ccc(cc3)C(=O)NO)ccc2c1,1,Phase 2,HDAC inhibitor,targeted cancer,14
+CV-1808,Nc1nc(Nc2ccccc2)nc2n(cnc12)[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O,0,Preclinical,adenosine receptor agonist,noncancer,30
+ripazepam,CCn1nc(C)c2NC(=O)CN=C(c12)c1ccccc1,0,Phase 2,benzodiazepine receptor agonist,noncancer,44
+azilsartan,CCOc1nc2cccc(C(O)=O)c2n1Cc1ccc(cc1)-c1ccccc1-c1nc(=O)o[nH]1,1,Launched,angiotensin receptor antagonist,noncancer,36
+miconazole,Clc1ccc(COC(Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+adarotene,OC(=O)\C=C\c1ccc(cc1)-c1ccc(O)c(c1)C12CC3CC(CC(C3)C1)C2,1,Phase 1,retinoid receptor agonist,Unknown,83
+peretinoin,CC(C)=CCC\C(C)=C\CC\C(C)=C\C=C\C(C)=C\C(O)=O,0,Phase 3,retinoid receptor agonist,Unknown,83
+estradiol-cypionate,C[C@]12CCC3C(CCc4cc(O)ccc34)C1CC[C@@H]2OC(=O)CCC1CCCC1,1,Launched,estrogen receptor agonist,noncancer,56
+OSI-027,COc1cccc2cc([nH]c12)-c1nc([C@H]2CC[C@@H](CC2)C(O)=O)n2ncnc(N)c12,1,Phase 1,mTOR inhibitor,targeted cancer,67
+chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)c1ccc(cc1)[N+]([O-])=O,0,Launched,bacterial 50S ribosomal subunit inhibitor,noncancer,40
+apremilast,CCOc1cc(ccc1OC)[C@@H](CS(C)(=O)=O)N1C(=O)c2cccc(NC(C)=O)c2C1=O,0,Launched,phosphodiesterase inhibitor,Unknown,76
+dexfenfluramine,CCN[C@@H](C)Cc1cccc(c1)C(F)(F)F,0,Withdrawn,serotonin receptor agonist,noncancer,85
+ioxaglic-acid,CNC(=O)c1c(I)c(N(C)C(C)=O)c(I)c(C(=O)NCC(=O)Nc2c(I)c(C(O)=O)c(I)c(C(=O)NCCO)c2I)c1I,0,Launched,radiopaque medium,noncancer,82
+pimozide,Fc1ccc(cc1)C(CCCN1CCC(CC1)n1c2ccccc2[nH]c1=O)c1ccc(F)cc1,0,Launched,dopamine receptor antagonist,noncancer,53
+vincristine,CC[C@]1(O)C[C@@H]2C[N@](C1)CCc1c([nH]c3ccccc13)[C@@](C2)(C(=O)OC)c1cc2c(cc1OC)N(C=O)[C@@H]1[C@]22CCN3CC=C[C@](CC)([C@@H]23)[C@@H](OC(C)=O)[C@]1(O)C(=O)OC,1,Launched,tubulin polymerization inhibitor,chemo,91
+SKF-38393,Oc1cc2CCNCC(c3ccccc3)c2cc1O,0,Preclinical,dopamine receptor agonist,noncancer,52
+olprinone,Cc1[nH]c(=O)c(cc1-c1ccc2nccn2c1)C#N,0,Launched,phosphodiesterase inhibitor,noncancer,76
+chlorcyclizine,CN1CCN(CC1)C(c1ccccc1)c1ccc(Cl)cc1,0,Launched,histamine receptor antagonist,noncancer,63
+butyl-paraben,CCCCOC(=O)c1ccc(O)cc1,0,Preclinical,DNA synthesis inhibitor,noncancer,9
+VUF10166,CN1CCN(CC1)c1nc2ccccc2nc1Cl,0,Preclinical,serotonin receptor antagonist,noncancer,86
+articaine,CCCNC(C)C(=O)Nc1c(C)csc1C(=O)OC,0,Launched,local anesthetic,Unknown,66
+cordycepin,Nc1ncnc2n(cnc12)[C@@H]1O[C@H](CO)C[C@H]1O,0,Phase 1/Phase 2,DNA inhibitor,chemo,7
+ZM-241385,Nc1nc(NCCc2ccc(O)cc2)nc2nc(nn12)-c1ccco1,0,Preclinical,adenosine receptor antagonist,targeted cancer,31
+artemisinin,C[C@@H]1CC[C@H]2[C@@H](C)C(=O)O[C@@H]3O[C@@]4(C)CC[C@@H]1[C@@]23OO4,1,Launched,DNA synthesis inhibitor,noncancer,9
+SB-239063,COc1nccc(n1)-c1c(ncn1[C@H]1CC[C@H](O)CC1)-c1ccc(F)cc1,1,Preclinical,p38 MAPK inhibitor,noncancer,75
+U-99194,CCCN(CCC)C1Cc2cc(OC)c(OC)cc2C1,0,Preclinical,dopamine receptor antagonist,noncancer,53
+JNJ-7777120,CN1CCN(CC1)C(=O)c1cc2cc(Cl)ccc2[nH]1,0,Preclinical,histamine receptor antagonist,noncancer,63
+zaltidine,Cc1ncc([nH]1)-c1csc(NC(N)=N)n1,0,Phase 3,histamine receptor antagonist,noncancer,63
+ZD-7155,CCc1cc2N(Cc3ccc(cc3)-c3ccccc3-c3nnn[nH]3)C(=O)CCc2c(CC)n1,0,Preclinical,angiotensin receptor antagonist,Unknown,36
+norfloxacin,CCn1cc(C(O)=O)c(=O)c2cc(F)c(cc12)N1CCNCC1,1,Launched,bacterial DNA gyrase inhibitor,noncancer,41
+cis-ACPD,N[C@]1(CC[C@@H](C1)C(O)=O)C(O)=O.N[C@@]1(CC[C@H](C1)C(O)=O)C(O)=O,0,Preclinical,glutamate receptor agonist,Unknown,59
+dyclonine,CCCCOc1ccc(cc1)C(=O)CCN1CCCCC1,0,Launched,sodium channel blocker,noncancer,87
+parbendazole,CCCCc1ccc2[nH]c(NC(=O)OC)nc2c1,1,Preclinical,tubulin polymerization inhibitor,noncancer,91
+PF-02545920,Cn1cc(c(n1)-c1ccc(OCc2ccc3ccccc3n2)cc1)-c1ccncc1,0,Phase 2,phosphodiesterase inhibitor,noncancer,76
+mometasone-furoate,C[C@@H]1C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(Cl)[C@@H](O)C[C@]2(C)[C@@]1(OC(=O)c1ccco1)C(=O)CCl,0,Launched,glucocorticoid receptor agonist,noncancer,58
+risperidone,Cc1nc2CCCCn2c(=O)c1CCN1CCC(CC1)c1noc2cc(F)ccc12,0,Launched,"dopamine receptor antagonist, serotonin receptor antagonist",noncancer,54
+temsirolimus,CO[C@@H]1C[C@H](C[C@@H](C)[C@@H]2CC(=O)[C@H](C)\C=C(C)\[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)\C=C\C=C\C=C(C)\[C@H](C[C@H]3CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@H]3C(=O)O2)OC)CC[C@@H]1OC(=O)C(C)(CO)CO,1,Launched,mTOR inhibitor,targeted cancer,67
+parecoxib,CCC(=O)NS(=O)(=O)c1ccc(cc1)-c1c(C)onc1-c1ccccc1,0,Launched,cyclooxygenase inhibitor,noncancer,49
+atenolol-(+/-),CC(C)NCC(O)COc1ccc(CC(N)=O)cc1,1,Launched,adrenergic receptor antagonist,noncancer,33
+alvespimycin,CO[C@H]1C[C@H](C)CC2=C(NCCN(C)C)C(=O)C=C(NC(=O)\C(C)=C\C=C/[C@H](OC)[C@@H](OC(N)=O)\C(C)=C\[C@H](C)[C@H]1O)C2=O,1,Phase 2,HSP inhibitor,targeted cancer,16
+levobunolol-(+/-),CC(C)(C)NCC(O)COc1cccc2C(=O)CCCc12,0,Preclinical,adrenergic receptor antagonist,noncancer,33
+SGC-0946,CC(C)N(CCCNC(=O)Nc1ccc(cc1)C(C)(C)C)C[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1cc(Br)c2c(N)ncnc12,0,Preclinical,histone lysine methyltransferase inhibitor,noncancer,64
+resorcinol,Oc1cccc(O)c1,0,Launched,phosphodiesterase inhibitor,noncancer,76
+hydroxyprogesterone,CC(=O)[C@@]1(O)CCC2C3CCC4=CC(=O)CC[C@]4(C)C3CC[C@]12C,0,Launched,progesterone receptor agonist,noncancer,79
+QX-314,CC[N+](CC)(CC)CC(=O)Nc1c(C)cccc1C,0,Preclinical,sodium channel blocker,noncancer,87
+itopride,COc1ccc(cc1OC)C(=O)NCc1ccc(OCCN(C)C)cc1,0,Launched,dopamine receptor antagonist,noncancer,53
+ravuconazole,C[C@@H](c1nc(cs1)-c1ccc(cc1)C#N)[C@](O)(Cn1cncn1)c1ccc(F)cc1F,0,Phase 2,sterol demethylase inhibitor,noncancer,88
+diflunisal,OC(=O)c1cc(ccc1O)-c1ccc(F)cc1F,0,Launched,prostanoid receptor antagonist,noncancer,80
+harringtonine,COC(=O)C[C@@](O)(CCC(C)(C)O)C(=O)O[C@H]1[C@@H]2c3cc4OCOc4cc3CCN3CCC[C@]23C=C1OC,1,Phase 3,protein synthesis inhibitor,Unknown,81
+celecoxib,Cc1ccc(cc1)-c1cc(nn1-c1ccc(cc1)S(N)(=O)=O)C(F)(F)F,0,Launched,cyclooxygenase inhibitor,noncancer,49
+rufloxacin,CN1CCN(CC1)c1c(F)cc2c3c1SCCn3cc(C(O)=O)c2=O,0,Launched,bacterial DNA gyrase inhibitor,noncancer,41
+DPO-1,CC(C)[C@@H]1CC[C@@H](C)C[C@@H]1P(=O)(c1ccccc1)c1ccccc1,0,Preclinical,potassium channel blocker,Unknown,78
+enoxacin,CCn1cc(C(O)=O)c(=O)c2cc(F)c(nc12)N1CCNCC1,0,Launched,topoisomerase inhibitor,noncancer,90
+gallamine-triethiodide,CC[N+](CC)(CC)CCOc1cccc(OCC[N+](CC)(CC)CC)c1OCC[N+](CC)(CC)CC,0,Launched,acetylcholine receptor antagonist,noncancer,28
+naphazoline,C(C1=NCCN1)c1cccc2ccccc12,0,Launched,adrenergic receptor agonist,noncancer,32
+camptothecin,CC[C@@]1(O)C(=O)OCc2c1cc1-c3nc4ccccc4cc3Cn1c2=O,1,Phase 3,topoisomerase inhibitor,Unknown,90
+bosentan,COc1ccccc1Oc1c(NS(=O)(=O)c2ccc(cc2)C(C)(C)C)nc(nc1OCCO)-c1ncccn1,1,Launched,endothelin receptor antagonist,noncancer,55
+pralidoxime,C[n+]1ccccc1\C=N\O,0,Launched,acetylcholinesterase inhibitor,noncancer,29
+brimonidine,Brc1c(NC2=NCCN2)ccc2nccnc12,0,Launched,adrenergic receptor agonist,noncancer,32
+mexiletine,CC(N)COc1c(C)cccc1C,1,Launched,sodium channel blocker,noncancer,87
+butylated-hydroxytoluene,Cc1cc(c(O)c(c1)C(C)(C)C)C(C)(C)C,0,Phase 1,carbonic anhydrase inhibitor,noncancer,46
+tenoxicam,CN1C(C(=O)Nc2ccccn2)C(=O)c2sccc2S1(=O)=O,0,Launched,cyclooxygenase inhibitor,noncancer,49
+cilomilast,COc1ccc(cc1OC1CCCC1)C1(CCC(CC1)C(O)=O)C#N,0,Phase 3,phosphodiesterase inhibitor,noncancer,76
+oxybuprocaine,CCCCOc1cc(ccc1N)C(=O)OCCN(CC)CC,0,Launched,local anesthetic,noncancer,66
+beta-lapachone,CC1(C)CCC2=C(O1)c1ccccc1C(=O)C2=O,1,Phase 2,topoisomerase inhibitor,chemo,90
+isavuconazole,C[C@@H](c1nc(cs1)-c1ccc(cc1)C#N)C(O)(Cn1cncn1)c1cc(F)ccc1F,0,Phase 3,cytochrome P450 inhibitor,noncancer,50
+SKF-77434,Oc1cc2CCN(CC=C)CC(c3ccccc3)c2cc1O,0,Preclinical,dopamine receptor agonist,noncancer,52
+taurine,NCCS(O)(=O)=O,1,Launched,antioxidant,noncancer,37
+levobunolol,CC(C)(C)NC[C@H](O)COc1cccc2C(=O)CCCc12,1,Launched,adrenergic receptor antagonist,noncancer,33
+manidipine,COC(=O)C1=C(C)NC(C)=C(C1c1cccc(c1)[N+]([O-])=O)C(=O)OCCN1CCN(CC1)C(c1ccccc1)c1ccccc1,0,Launched,calcium channel blocker,noncancer,45
+GDC-0879,OCCn1cc(c(n1)-c1ccncc1)-c1ccc2c(CC\C2=N/O)c1,1,Preclinical,RAF inhibitor,targeted cancer,23
+valproic-acid,CCCC(CCC)C(O)=O,0,Launched,HDAC inhibitor,Unknown,14
+ZD-7114,COCCNC(=O)COc1ccc(OCCNC[C@H](O)COc2ccccc2)cc1,0,Phase 1,adrenergic receptor agonist,noncancer,32
+epicatechin-gallate-(-),Oc1cc(O)c2C[C@@H](OC(=O)c3cc(O)c(O)c(O)c3)[C@H](Oc2c1)c1ccc(O)c(O)c1,0,Phase 2,bacterial DNA gyrase inhibitor,targeted cancer,41
+aclidinium,OC(C(=O)O[C@H]1C[N+]2(CCCOc3ccccc3)CCC1CC2)(c1cccs1)c1cccs1,0,Launched,acetylcholine receptor antagonist,noncancer,28
+pirfenidone,Cc1ccc(=O)n(c1)-c1ccccc1,0,Launched,TGF beta receptor inhibitor,noncancer,25
+SIB-1757,Cc1ccc(O)c(N=Nc2ccccc2)n1,1,Preclinical,glutamate receptor antagonist,noncancer,60
+prednisolone,C[C@]12C[C@H](O)C3C(CCC4=CC(=O)C=C[C@]34C)C1CC[C@]2(O)C(=O)CO,1,Launched,glucocorticoid receptor agonist,noncancer,58
+nemonapride,CNc1cc(OC)c(cc1Cl)C(=O)N[C@@H]1CCN(Cc2ccccc2)[C@@H]1C.CNc1cc(OC)c(cc1Cl)C(=O)N[C@H]1CCN(Cc2ccccc2)[C@H]1C,1,Launched,dopamine receptor antagonist,Unknown,53
+scopolamine,CN1[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)c1ccccc1,0,Launched,acetylcholine receptor antagonist,noncancer,28
+SYM-2206,CCCNC(=O)N1N=C(c2ccc(N)cc2)c2cc3OCOc3cc2C1C,0,Preclinical,glutamate receptor antagonist,noncancer,60
+topotecan,CC[C@@]1(O)C(=O)OCc2c1cc1-c3nc4ccc(O)c(CN(C)C)c4cc3Cn1c2=O,1,Launched,topoisomerase inhibitor,chemo,90
+imiloxan,CCn1ccnc1CC1COc2ccccc2O1,1,Phase 1,adrenergic receptor antagonist,noncancer,33
+bendamustine,Cn1c(CCCC(O)=O)nc2cc(ccc12)N(CCCl)CCCl,1,Launched,DNA inhibitor,chemo,7
+PRX-08066,Fc1ccc(CN2CCC(CC2)Nc2ncnc3sc(Cl)cc23)cc1C#N,0,Phase 2,serotonin receptor antagonist,noncancer,86
+lurasidone,O=C1[C@H]2[C@@H]3CC[C@@H](C3)[C@H]2C(=O)N1C[C@@H]1CCCC[C@H]1CN1CCN(CC1)c1nsc2ccccc12,1,Launched,"dopamine receptor antagonist, serotonin receptor antagonist",noncancer,54
+PSB-1115,CCCn1c(=O)[nH]c2nc([nH]c2c1=O)-c1ccc(cc1)S(O)(=O)=O,1,Preclinical,adenosine receptor antagonist,noncancer,31
+rutaecarpine,O=c1n2CCc3c([nH]c4ccccc34)-c2nc2ccccc12,0,Preclinical,cyclooxygenase inhibitor,noncancer,49
+betaxolol,CC(C)NCC(O)COc1ccc(CCOCC2CC2)cc1,0,Launched,adrenergic receptor antagonist,noncancer,33
+imetit,NC(=N)SCCc1c[nH]cn1,0,Preclinical,histamine receptor agonist,noncancer,62
+eprobemide,Clc1ccc(cc1)C(=O)NCCCN1CCOCC1,1,Launched,monoamine oxidase inhibitor,noncancer,69
+fluocinonide,CC(=O)OCC(=O)[C@@]12OC(C)(C)O[C@@H]1C[C@H]1[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]21C,0,Launched,glucocorticoid receptor agonist,noncancer,58
+parthenolide-(alternate-stereo),C\C1=C/CC[C@@]2(C)O[C@@H]2[C@H]2OC(=O)C(=C)[C@@H]2CC1,0,Preclinical,NFkB pathway inhibitor,targeted cancer,19
+ORE1001,CC(C)C[C@H](N[C@@H](Cc1cncn1Cc1cc(Cl)cc(Cl)c1)C(O)=O)C(O)=O,0,Phase 1/Phase 2,angiotensin converting enzyme inhibitor,noncancer,35
+L-NAME,COC(=O)[C@@H](N)CCCNC(=N)N[N+]([O-])=O,0,Phase 2/Phase 3,nitric oxide synthase inhibitor,noncancer,72
+ramatroban,OC(=O)CCn1c2CC[C@H](Cc2c2ccccc12)NS(=O)(=O)c1ccc(F)cc1,1,Launched,prostanoid receptor antagonist,noncancer,80
+aprepitant,C[C@H](O[C@H]1OCCN(Cc2n[nH]c(=O)[nH]2)[C@H]1c1ccc(F)cc1)c1cc(cc(c1)C(F)(F)F)C(F)(F)F,0,Launched,tachykinin antagonist,noncancer,89
+tremorine,C(C#CCN1CCCC1)N1CCCC1,1,Preclinical,acetylcholine receptor agonist,noncancer,27
+pelanserin,O=c1[nH]c2ccccc2c(=O)n1CCCN1CCN(CC1)c1ccccc1,0,Phase 2,serotonin receptor antagonist,noncancer,86
+iloperidone,COc1cc(ccc1OCCCN1CCC(CC1)c1noc2cc(F)ccc12)C(C)=O,0,Launched,"dopamine receptor antagonist, serotonin receptor antagonist",noncancer,54
+elbasvir,COC(=O)N[C@@H](C(C)C)C(=O)N1CCC[C@H]1c1ncc([nH]1)-c1ccc2-c3cc4cc(ccc4n3[C@@H](Oc2c1)c1ccccc1)-c1cnc([nH]1)[C@@H]1CCCN1C(=O)[C@@H](NC(=O)OC)C(C)C,0,Launched,HCV inhibitor,noncancer,13
+SB-205384,CC#CCOC(=O)c1c(C)nc2sc3CC(O)CCc3c2c1N,1,Preclinical,GABA receptor modulator,noncancer,12
+isobutamben,CC(C)COC(=O)c1ccc(N)cc1,0,Preclinical,local anesthetic,noncancer,66
+CEP-37440,CNC(=O)c1ccccc1Nc1nc(Nc2ccc3C[C@H](CCCc3c2OC)N2CCN(CCO)CC2)ncc1Cl,1,Phase 1,ALK tyrosine kinase receptor inhibitor,targeted cancer,1
+cepharanthine,COc1ccc2C[C@H]3N(C)CCc4cc(OC)c(Oc5c6OCOc6cc6CCN(C)[C@@H](Cc7ccc(Oc1c2)cc7)c56)cc34,0,Phase 2,NFkB pathway inhibitor,targeted cancer,19
+NAN-190,COc1ccccc1N1CCN(CCCCN2C(=O)c3ccccc3C2=O)CC1,1,Preclinical,serotonin receptor agonist,noncancer,85
+atipamezole,CCC1(Cc2ccccc2C1)c1cnc[nH]1,1,Launched,adrenergic receptor antagonist,noncancer,33
+metocurine,COc1ccc2C[C@@H]3c4c(CC[N+]3(C)C)cc(OC)c(OC)c4Oc3ccc(C[C@H]4c5cc(Oc1c2)c(OC)cc5CC[N+]4(C)C)cc3,0,Launched,acetylcholine receptor antagonist,noncancer,28
+levosulpiride,CCN1CCC[C@H]1CNC(=O)c1cc(ccc1OC)S(N)(=O)=O,0,Launched,dopamine receptor antagonist,noncancer,53
+strychnine,O=C1CC2OCC=C3CN4CC[C@@]56C4C[C@@H]3[C@@H]2C5N1c1ccccc61,0,Preclinical,acetylcholine receptor antagonist,noncancer,28
+SB-271046,COc1ccc(NS(=O)(=O)c2sc3ccc(Cl)cc3c2C)cc1N1CCNCC1,0,Phase 1,serotonin receptor antagonist,noncancer,86
+azodicarbonamide,NC(=O)\N=N\C(N)=O,1,Phase 2,DNA synthesis inhibitor,noncancer,9
+ciclesonide,CC(C)C(=O)OCC(=O)[C@@]12O[C@@H](O[C@@H]1C[C@H]1[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@H]3[C@@H](O)C[C@]21C)C1CCCCC1,1,Launched,glucocorticoid receptor agonist,noncancer,58
+triamcinolone,C[C@]12C[C@H](O)[C@@]3(F)[C@@H](CCC4=CC(=O)C=C[C@]34C)[C@@H]1C[C@@H](O)[C@]2(O)C(=O)CO,1,Launched,glucocorticoid receptor agonist,noncancer,58
+frovatriptan,CN[C@@H]1CCc2[nH]c3ccc(cc3c2C1)C(N)=O,0,Launched,serotonin receptor agonist,noncancer,85
+medetomidine,CC(c1c[nH]cn1)c1cccc(C)c1C,0,Launched,adrenergic receptor agonist,noncancer,32
+esomeprazole,COc1ccc2[nH]c(nc2c1)[S@@](=O)Cc1ncc(C)c(OC)c1C,0,Launched,ATPase inhibitor,noncancer,2
+A66,Cc1nc(NC(=O)N2CCC[C@H]2C(N)=O)sc1-c1csc(n1)C(C)(C)C,0,Preclinical,PI3K inhibitor,targeted cancer,21
+azomycin-(2-nitroimidazole),[O-][N+](=O)c1ncc[nH]1,1,Preclinical,protein synthesis inhibitor,noncancer,81
+chiniofon,Oc1c(I)cc(c2cccnc12)S(O)(=O)=O,0,Launched,antiprotozoal agent,noncancer,38
+lupanine,O=C1CCCC2C3CC(CN12)[C@@H]1CCCCN1C3,0,Phase 1,sodium channel blocker,noncancer,87
+atizoram,COc1ccc(cc1O[C@H]1C[C@@H]2CC[C@H]1C2)C1CNC(=O)NC1,0,Phase 2,phosphodiesterase inhibitor,noncancer,76
+cimaterol,CC(C)NCC(O)c1ccc(N)c(c1)C#N,0,Preclinical,adrenergic receptor agonist,noncancer,32
+BIBX-1382,CN1CCC(CC1)Nc1ncc2ncnc(Nc3ccc(F)c(Cl)c3)c2n1,1,Phase 1,EGFR inhibitor,targeted cancer,10
+idelalisib,CC[C@H](Nc1ncnc2[nH]cnc12)c1nc2cccc(F)c2c(=O)n1-c1ccccc1,1,Launched,PI3K inhibitor,targeted cancer,21
+galantamine,COc1ccc2CN(C)CC[C@@]34C=C[C@H](O)C[C@@H]3Oc1c24,0,Launched,acetylcholinesterase inhibitor,noncancer,29
+MLN2480,C[C@@H](NC(=O)c1ncnc(N)c1Cl)c1ncc(s1)C(=O)Nc1cc(c(Cl)cn1)C(F)(F)F,0,Phase 1,RAF inhibitor,targeted cancer,23
+ARRY-334543,C[C@@H]1COC(Nc2ccc3ncnc(Nc4ccc(OCc5nccs5)c(Cl)c4)c3c2)=N1,1,Phase 2,EGFR inhibitor,targeted cancer,10
+fenoverine,O=C(CN1CCN(Cc2ccc3OCOc3c2)CC1)N1c2ccccc2Sc2ccccc12,0,Launched,acetylcholine receptor antagonist,noncancer,28
+MK-0812,CO[C@@H]1COCC[C@@H]1N[C@@H]1CC[C@](C1)(C(C)C)C(=O)N1CCc2ncc(cc2C1)C(F)(F)F,1,Phase 2,CC chemokine receptor antagonist,noncancer,4
+rotundine,COc1cc2CCN3Cc4c(C[C@H]3c2cc1OC)ccc(OC)c4OC,0,Launched,serotonin receptor agonist,noncancer,85
+NM107,CC1(O)C(O)C(CO)OC1n1ccc(N)nc1=O,0,Phase 2,RNA polymerase inhibitor,noncancer,24
+betamethasone-valerate,CCCCC(=O)O[C@@]1([C@@H](C)C[C@H]2[C@@H]3CCC4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]12C)C(=O)CO,0,Launched,glucocorticoid receptor agonist,noncancer,58
+paritaprevir,Cc1cnc(cn1)C(=O)N[C@H]1CCCCC\C=C/[C@@H]2C[C@]2(NC(=O)[C@@H]2C[C@H](CN2C1=O)Oc1nc2ccccc2c2ccccc12)C(=O)NS(=O)(=O)C1CC1,0,Launched,HCV inhibitor,noncancer,13
+2-hydroxyflutamide,CC(C)(O)C(=O)Nc1ccc(c(c1)C(F)(F)F)[N+]([O-])=O,0,Phase 1/Phase 2,androgen receptor antagonist,targeted cancer,34
+E-4031,Cc1cccc(CCN2CCC(CC2)C(=O)c2ccc(NS(C)(=O)=O)cc2)n1,0,Phase 1,potassium channel blocker,noncancer,78
+SB-258585,COc1ccc(NS(=O)(=O)c2ccc(I)cc2)cc1N1CCN(C)CC1,0,Preclinical,serotonin receptor antagonist,noncancer,86
+NCS-382,OC1c2ccccc2CCC\C1=C/C(O)=O,0,Preclinical,GABA receptor antagonist,noncancer,11
+trimebutine,CCC(COC(=O)c1cc(OC)c(OC)c(OC)c1)(N(C)C)c1ccccc1,1,Launched,opioid receptor agonist,noncancer,73
+vicriviroc,COC[C@H](N1CCN(C[C@@H]1C)C1(C)CCN(CC1)C(=O)c1c(C)ncnc1C)c1ccc(cc1)C(F)(F)F,0,Phase 3,CC chemokine receptor antagonist,targeted cancer,4
+SR-2640,OC(=O)c1ccccc1Nc1cccc(OCc2ccc3ccccc3n2)c1,0,Phase 2,leukotriene receptor antagonist,noncancer,65
+S-Isopropylisothiourea,CC(C)SC(N)=N,0,Preclinical,nitric oxide synthase inhibitor,noncancer,72
+metazosin,COC(C)C(=O)N1CCN(CC1)c1nc(N)c2cc(OC)c(OC)cc2n1,0,Phase 2,adrenergic receptor antagonist,noncancer,33
+homatropine,CN1[C@H]2CC[C@@H]1C[C@@H](C2)OC(=O)C(O)c1ccccc1,0,Launched,acetylcholine receptor antagonist,noncancer,28
+levocetirizine,OC(=O)COCCN1CCN(CC1)[C@H](c1ccccc1)c1ccc(Cl)cc1,1,Launched,histamine receptor antagonist,noncancer,63
+VCH-916,CO[C@H]1CC[C@@H](CC1)N(C(=O)[C@H]1CC[C@H](C)CC1)c1cc(sc1C(O)=O)C1=CCCCC1,0,Phase 1,HCV inhibitor,noncancer,13
+AZ960,C[C@H](Nc1nc(Nc2cc(C)[nH]n2)c(F)cc1C#N)c1ccc(F)cc1,1,Preclinical,JAK inhibitor,targeted cancer,17
+beta-funaltrexamine,COC(=O)\C=C\C(=O)N[C@@H]1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5O[C@@H]1[C@]2(CCN3CC1CC1)c45,0,Preclinical,opioid receptor antagonist,noncancer,74
+fendiline,CC(NCCC(c1ccccc1)c1ccccc1)c1ccccc1,1,Preclinical,calcium channel blocker,noncancer,45
+EPZ004777,CC(C)N(CCCNC(=O)Nc1ccc(cc1)C(C)(C)C)C[C@H]1O[C@H]([C@H](O)[C@@H]1O)n1ccc2c(N)ncnc12,0,Preclinical,histone lysine methyltransferase inhibitor,targeted cancer,64
+sodium-tanshinone-ii-a-sulfonate,Cc1c2c(oc1S(O)(=O)=O)-c1ccc3c(CCCC3(C)C)c1C(=O)C2=O,1,Phase 2,potassium channel activator,noncancer,77
+barnidipine,COC(=O)C1=C(C)NC(C)=C([C@H]1c1cccc(c1)[N+]([O-])=O)C(=O)O[C@H]1CCN(Cc2ccccc2)C1,0,Launched,calcium channel blocker,noncancer,45
+efavirenz,FC(F)(F)[C@]1(OC(=O)Nc2ccc(Cl)cc12)C#CC1CC1,0,Launched,HIV protease inhibitor,noncancer,15
+methoxyphenamine,CNC(C)Cc1ccccc1OC,0,Launched,adrenergic receptor agonist,noncancer,32
+dacomitinib,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1NC(=O)\C=C\CN1CCCCC1,1,Phase 3,EGFR inhibitor,targeted cancer,10
+flunisolide,CC1(C)O[C@@H]2CC3C4C[C@H](F)C5=CC(=O)C=CC5(C)C4C(O)CC3(C)[C@@]2(O1)C(=O)CO,0,Launched,cytochrome P450 inhibitor,noncancer,50
+efatutazone,Cc1cc(Oc2ccc3nc(COc4ccc(CC5SC(=O)NC5=O)cc4)n(C)c3c2)cc(C)c1N,0,Phase 2,PPAR receptor agonist,targeted cancer,22
+"tropanyl-3,5-dimethylbenzoate",CN1C2CCC1CC(C2)OC(=O)c1cc(C)cc(C)c1,0,Preclinical,serotonin receptor antagonist,noncancer,86
+Y-27152,CC(=O)N(OCc1ccccc1)[C@H]1[C@H](O)C(C)(C)Oc2ccc(cc12)C#N,0,Phase 1,potassium channel activator,noncancer,77
+regadenoson,CNC(=O)c1cnn(c1)-c1nc(N)c2ncn([C@@H]3O[C@H](CO)C(O)C3O)c2n1,0,Launched,adenosine receptor agonist,noncancer,30
+CPP,OC(=O)[C@H]1CN(CCCP(O)(O)=O)CCN1,1,Phase 2,glutamate receptor antagonist,noncancer,60
+AZD2014,CNC(=O)c1cccc(c1)-c1ccc2c(nc(nc2n1)N1CCOC[C@@H]1C)N1CCOC[C@@H]1C,1,Phase 2,mTOR inhibitor,targeted cancer,67
+melengestrol-acetate,CC(=O)O[C@]1(C(C)=O)C(=C)CC2C3C=C(C)C4=CC(=O)CC[C@]4(C)C3CC[C@]12C,1,Preclinical,progesterone receptor agonist,noncancer,79
+hesperadin,CCS(=O)(=O)Nc1ccc2NC(=O)\C(c2c1)=C(/Nc1ccc(CN2CCCCC2)cc1)c1ccccc1,1,Preclinical,Aurora kinase inhibitor,Unknown,3
+L-glutamic-acid,N[C@@H](CCC(O)=O)C(O)=O,0,Launched,glutamate receptor agonist,noncancer,59
+SKF-96365,COc1ccc(CCCOC(Cn2ccnc2)c2ccc(OC)cc2)cc1,1,Preclinical,calcium channel blocker,noncancer,45
+zaleplon,CCN(C(C)=O)c1cccc(c1)-c1ccnc2c(cnn12)C#N,1,Launched,benzodiazepine receptor agonist,noncancer,44
+oxymetazoline,Cc1cc(c(O)c(C)c1CC1=NCCN1)C(C)(C)C,1,Launched,adrenergic receptor agonist,noncancer,32
+alverine,CCN(CCCc1ccccc1)CCCc1ccccc1,0,Launched,muscle relaxant,noncancer,71
+temozolomide,Cn1nnc2c(ncn2c1=O)C(N)=O,1,Launched,DNA alkylating agent,chemo,6
+iodipamide,OC(=O)c1c(I)cc(I)c(NC(=O)CCCCC(=O)Nc2c(I)cc(I)c(C(O)=O)c2I)c1I,1,Launched,radiopaque medium,noncancer,82
+reparixin,CC(C)Cc1ccc(cc1)[C@@H](C)C(=O)NS(C)(=O)=O,0,Phase 3,CC chemokine receptor antagonist,targeted cancer,4
+AR-A014418,COc1ccc(CNC(=O)Nc2ncc(s2)[N+]([O-])=O)cc1,0,Preclinical,glycogen synthase kinase inhibitor,targeted cancer,61
+spaglumic-acid,CC(=O)N[C@@H](CC(O)=O)C(=O)N[C@@H](CCC(O)=O)C(O)=O,0,Launched,glutamate receptor antagonist,noncancer,60
+palonosetron,O=C1N(C[C@H]2CCCc3cccc1c23)[C@@H]1CN2CCC1CC2,0,Launched,serotonin receptor antagonist,noncancer,86
+NVP-TAE684,COc1cc(ccc1Nc1ncc(Cl)c(Nc2ccccc2S(=O)(=O)C(C)C)n1)N1CCC(CC1)N1CCN(C)CC1,1,Preclinical,ALK tyrosine kinase receptor inhibitor,targeted cancer,1
+lidocaine,CCN(CC)CC(=O)Nc1c(C)cccc1C,1,Launched,histamine receptor agonist,noncancer,62
+UPF-1069,O=C(COc1cccc2c1cc[nH]c2=O)c1ccccc1,0,Preclinical,PARP inhibitor,noncancer,20
+Y-39983,C[C@@H](N)c1ccc(cc1)C(=O)Nc1ccnc2[nH]ccc12,1,Phase 2,rho associated kinase inhibitor,noncancer,84
+octenidine,CCCCCCCCN=c1ccn(CCCCCCCCCCn2ccc(cc2)=NCCCCCCCC)cc1,1,Launched,membrane integrity inhibitor,noncancer,68
+lomerizine,COc1ccc(CN2CCN(CC2)C(c2ccc(F)cc2)c2ccc(F)cc2)c(OC)c1OC,0,Launched,calcium channel blocker,noncancer,45
+cefaclor,N[C@@H](C(=O)N[C@H]1[C@H]2SCC(Cl)=C(N2C1=O)C(O)=O)c1ccccc1,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+purvalanol-a,CC(C)[C@H](CO)Nc1nc(Nc2cccc(Cl)c2)c2ncn(C(C)C)c2n1,0,Preclinical,CDK inhibitor,targeted cancer,5
+selumetinib,Cn1cnc2c(F)c(Nc3ccc(Br)cc3Cl)c(cc12)C(=O)NOCCO,1,Phase 3,MEK inhibitor,targeted cancer,18
+zolantidine,C(CNc1nc2ccccc2s1)COc1cccc(CN2CCCCC2)c1,1,Preclinical,histamine receptor antagonist,noncancer,63
+hydroxyfasudil,Oc1nccc2c(cccc12)S(=O)(=O)N1CCCNCC1,0,Preclinical,rho associated kinase inhibitor,noncancer,84
+dopamine,NCCc1ccc(O)c(O)c1,0,Launched,dopamine receptor agonist,noncancer,52
+cephalomannine,C\C=C(/C)C(=O)N[C@H]([C@@H](O)C(=O)O[C@H]1C[C@@]2(O)[C@@H](OC(=O)c3ccccc3)[C@@H]3[C@@]4(CO[C@@H]4C[C@H](O)[C@@]3(C)C(=O)[C@H](OC(C)=O)C(=C1C)C2(C)C)OC(C)=O)c1ccccc1,1,Preclinical,DNA polymerase inhibitor,Unknown,8
+cefotiam,CN(C)CCn1nnnc1SCC1=C(N2[C@H](SC1)[C@H](NC(=O)Cc1csc(N)n1)C2=O)C(O)=O,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+caramiphen,CCN(CC)CCOC(=O)C1(CCCC1)c1ccccc1,0,Launched,cholinergic receptor antagonist,noncancer,48
+estradiol-acetate,CC(=O)Oc1ccc2[C@H]3CC[C@]4(C)[C@@H](O)CC[C@H]4[C@@H]3CCc2c1,0,Launched,estrogen receptor agonist,noncancer,56
+ampalex,O=C(N1CCCCC1)c1ccc2nccnc2c1,0,Phase 2,glutamate receptor agonist,noncancer,59
+landiolol,CC1(C)OC[C@@H](COC(=O)CCc2ccc(OC[C@@H](O)CNCCNC(=O)N3CCOCC3)cc2)O1,0,Launched,adrenergic receptor antagonist,noncancer,33
+fesoterodine,CC(C)N(CC[C@H](c1ccccc1)c1cc(CO)ccc1OC(=O)C(C)C)C(C)C,0,Launched,acetylcholine receptor antagonist,noncancer,28
+mezlocillin,CC1(C)S[C@H]2[C@@H](NC(=O)[C@@H](NC(=O)N3CCN(C3=O)S(C)(=O)=O)c3ccccc3)C(=O)N2[C@@H]1C(O)=O,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+U-0126,N\C(Sc1ccccc1N)=C(C#N)/C(C#N)=C(/N)Sc1ccccc1N,1,Preclinical,MEK inhibitor,targeted cancer,18
+tasuldine,C(Sc1ncccn1)c1cccnc1,0,Phase 3,mucolytic agent,noncancer,70
+2-[1-(4-piperonyl)piperazinyl]benzothiazole,C(N1CCN(CC1)c1nc2ccccc2s1)c1ccc2OCOc2c1,0,Preclinical,serotonin receptor agonist,noncancer,85
+nitrendipine,CCOC(=O)C1=C(C)NC(C)=C(C1c1cccc(c1)[N+]([O-])=O)C(=O)OC,0,Launched,calcium channel blocker,noncancer,45
+naltriben,Oc1ccc2CC3N(CC4CC4)CC[C@@]45[C@@H](Oc1c24)c1oc2ccccc2c1C[C@@]35O,0,Preclinical,opioid receptor antagonist,noncancer,74
+guanidine,NC(N)=N,1,Launched,HSP inhibitor,noncancer,16
+aminomethyltransferase,CC1CCN=C(N)S1,0,Preclinical,nitric oxide synthase inhibitor,noncancer,72
+spiramycin,CO[C@H]1[C@H](O)CC(=O)O[C@H](C)C\C=C\C=C\[C@H](O[C@H]2CC[C@@H]([C@@H](C)O2)N(C)C)[C@H](C)C[C@H](CC=O)[C@@H]1OC1O[C@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)[C@@H]([C@H]1O)N(C)C,0,Launched,bacterial 50S ribosomal subunit inhibitor,noncancer,40
+terazosin,COc1cc2nc(nc(N)c2cc1OC)N1CCN(CC1)C(=O)C1CCCO1,0,Launched,adrenergic receptor antagonist,noncancer,33
+diftalone,O=C1N2Cc3ccccc3C(=O)N2Cc2ccccc12,0,Launched,cyclooxygenase inhibitor,noncancer,49
+diclofenamide,NS(=O)(=O)c1cc(Cl)c(Cl)c(c1)S(N)(=O)=O,0,Launched,carbonic anhydrase inhibitor,noncancer,46
+3-methyladenine,Cn1cnc(=N)c2nc[nH]c12,0,Preclinical,PI3K inhibitor,targeted cancer,21
+muscimol,NCc1cc(O)no1,0,Phase 1,benzodiazepine receptor agonist,noncancer,44
+ICI-89406,OC(CNCCNC(=O)Nc1ccccc1)COc1ccccc1C#N,0,Phase 1,adrenergic receptor antagonist,noncancer,33
+L-741742,Cc1c(noc1-c1ccc(Cl)cc1)C1CCN(CCc2ccccc2)CC1,0,Preclinical,dopamine receptor antagonist,noncancer,53
+levomepromazine,COc1ccc2Sc3ccccc3N(C[C@H](C)CN(C)C)c2c1,0,Launched,dopamine receptor antagonist,noncancer,53
+aminophylline,Cn1c2nc[nH]c2c(=O)n(C)c1=O,0,Launched,adenosine receptor antagonist,noncancer,31
+DAPT,C[C@H](NC(=O)Cc1cc(F)cc(F)c1)C(=O)N[C@H](C(=O)OC(C)(C)C)c1ccccc1,0,Preclinical,gamma secretase inhibitor,targeted cancer,57
+tetracycline,CN(C)[C@H]1[C@@H]2C[C@H]3C(C(=O)c4c(O)cccc4[C@@]3(C)O)C(=O)[C@]2(O)C(=O)C(C(N)=O)C1=O,0,Launched,bacterial 30S ribosomal subunit inhibitor,noncancer,39
+GSK2110183,Cn1ncc(Cl)c1-c1cc(sc1Cl)C(=O)N[C@H](CN)Cc1cccc(F)c1,1,Phase 2,AKT inhibitor,targeted cancer,0
+oglemilast,CS(=O)(=O)Nc1ccc2oc3c(OC(F)F)ccc(C(=O)Nc4c(Cl)cncc4Cl)c3c2c1,0,Phase 2,phosphodiesterase inhibitor,noncancer,76
+ractopamine,CC(CCc1ccc(O)cc1)NCC(O)c1ccc(O)cc1,0,Launched,adrenergic receptor agonist,noncancer,32
+bay-w-9798,COC(=O)C1=C(C)N(C)C(C)=C(C1c1ccc(cc1)C(F)(F)F)C(=O)OC,0,Phase 2,antioxidant,targeted cancer,37
+GW-501516,Cc1nc(sc1CSc1ccc(OCC(O)=O)c(C)c1)-c1ccc(cc1)C(F)(F)F,1,Phase 2,PPAR receptor agonist,noncancer,22
+IRL-2500,CN([C@H](Cc1ccc(cc1)-c1ccccc1)C(=O)N[C@@H](Cc1c[nH]c2ccccc12)C(O)=O)C(=O)c1cc(C)cc(C)c1,0,Preclinical,endothelin receptor antagonist,Unknown,55
+meptazinol,CCC1(CCCCN(C)C1)c1cccc(O)c1,0,Launched,opioid receptor agonist,noncancer,73
+SQ-109,CC(C)=CCC\C(C)=C\CNCCNC1[C@H]2C[C@@H]3C[C@@H](C[C@H]1C3)C2,0,Phase 3,bacterial cell wall synthesis inhibitor,noncancer,43
+GSK2636771,Cc1nc2c(cc(cc2n1Cc1cccc(c1C)C(F)(F)F)N1CCOCC1)C(O)=O,0,Phase 2,PI3K inhibitor,targeted cancer,21
+LY2228820,CC(C)(C)Cn1c(N)nc2ccc(nc12)-c1[nH]c(nc1-c1ccc(F)cc1)C(C)(C)C,0,Phase 2,p38 MAPK inhibitor,noncancer,75
+halothane,FC(F)(F)C(Cl)Br,0,Launched,glutamate receptor antagonist,noncancer,60
+LY223982,COc1ccc(\C=C\CCCCOc2ccc(cc2CCC(O)=O)C(=O)c2cccc(c2)C(O)=O)cc1,0,Phase 2,leukotriene receptor antagonist,noncancer,65
+bifonazole,c1cn(cn1)C(c1ccccc1)c1ccc(cc1)-c1ccccc1,0,Launched,sterol demethylase inhibitor,noncancer,88
+pranoprofen,CC(C(O)=O)c1ccc2Oc3ncccc3Cc2c1,0,Launched,cyclooxygenase inhibitor,noncancer,49
+benfotiamine,C\C(N(Cc1cnc(C)nc1N)C=O)=C(\CCOP(O)(O)=O)SC(=O)c1ccccc1,1,Launched,antioxidant,noncancer,37
+granisetron,CN1C2CCCC1CC(C2)NC(=O)c1nn(C)c2ccccc12,0,Launched,serotonin receptor antagonist,noncancer,86
+amsacrine,COc1cc(NS(C)(=O)=O)ccc1Nc1c2ccccc2nc2ccccc12,1,Launched,topoisomerase inhibitor,chemo,90
+erteberel,Oc1ccc(cc1)[C@@H]1Oc2ccc(O)cc2[C@@H]2CCC[C@H]12,1,Phase 2,estrogen receptor agonist,noncancer,56
+acefylline,Cn1c2ncn(CC(O)=O)c2c(=O)n(C)c1=O,0,Launched,adenosine receptor agonist,Unknown,30
+suxibuzone,CCCCC1(COC(=O)CCC(O)=O)C(=O)N(N(C1=O)c1ccccc1)c1ccccc1,1,Launched,cyclooxygenase inhibitor,noncancer,49
+bipenamol,NCc1ccccc1Sc1ccccc1CO,0,Phase 2,dipeptidyl peptidase inhibitor,noncancer,51
+tetrindole,C1CCC(CC1)c1ccc2n3CCNC4CCCc(c34)c2c1,0,Phase 3,monoamine oxidase inhibitor,noncancer,69
+diphenidol,OC(CCCN1CCCCC1)(c1ccccc1)c1ccccc1,0,Launched,acetylcholine receptor agonist,noncancer,27
+amikacin,NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1OC1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O,0,Launched,bacterial 30S ribosomal subunit inhibitor,noncancer,39
+plinabulin,CC(C)(C)c1[nH]cnc1\C=c1/[nH]c(=O)\c(=C\c2ccccc2)[nH]c1=O,1,Phase 3,tubulin polymerization inhibitor,Unknown,91
+cefuroxime,CO\N=C(/C(=O)N[C@H]1[C@H]2SCC(COC(N)=O)=C(N2C1=O)C(O)=O)c1ccco1,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+orbifloxacin,C[C@H]1CN(C[C@@H](C)N1)c1c(F)c(F)c2c(c1F)n(cc(C(O)=O)c2=O)C1CC1,0,Launched,bacterial DNA gyrase inhibitor,noncancer,41
+DUP-697,CS(=O)(=O)c1ccc(cc1)-c1cc(Br)sc1-c1ccc(F)cc1,0,Phase 1,cyclooxygenase inhibitor,noncancer,49
+CGP-55845,C[C@H](NC[C@H](O)CP(O)(=O)Cc1ccccc1)c1ccc(Cl)c(Cl)c1,0,Preclinical,GABA receptor antagonist,noncancer,11
+blebbistatin-(-),Cc1ccc2N=C3N(CC[C@@]3(O)C(=O)c2c1)c1ccccc1,1,Preclinical,ATPase inhibitor,noncancer,2
+sulpiride,CCN1CCCC1CNC(=O)c1cc(ccc1OC)S(N)(=O)=O,0,Launched,dopamine receptor antagonist,noncancer,53
+BP-554,C(COc1ccc2OCOc2c1)CN1CCN(CC1)c1ccccc1,0,Preclinical,serotonin receptor agonist,noncancer,85
+flurbiprofen-(S)-(+),C[C@H](C(O)=O)c1ccc(c(F)c1)-c1ccccc1,0,Launched,cyclooxygenase inhibitor,noncancer,49
+ramifenazone,CC(C)Nc1c(C)n(C)n(-c2ccccc2)c1=O,1,Launched,cyclooxygenase inhibitor,noncancer,49
+sulfamethizole,Cc1nnc(NS(=O)(=O)c2ccc(N)cc2)s1,0,Launched,bacterial antifolate,noncancer,42
+ketoprofen,CC(C(O)=O)c1cccc(c1)C(=O)c1ccccc1,1,Launched,cyclooxygenase inhibitor,Unknown,49
+tenatoprazole,COc1ccc2[nH]c(nc2n1)S(=O)Cc1ncc(C)c(OC)c1C,0,Phase 2,ATPase inhibitor,noncancer,2
+mepyramine,COc1ccc(cc1)CN(CCN(C)C)c1ccccn1,0,Launched,histamine receptor antagonist,noncancer,63
+moclobemide,Clc1ccc(cc1)C(=O)NCCN1CCOCC1,0,Launched,monoamine oxidase inhibitor,noncancer,69
+5-methylfurmethiodide,Cc1ccc(C[N+](C)(C)C)o1,0,Preclinical,acetylcholine receptor agonist,noncancer,27
+PHA-680632,CCc1cccc(CC)c1NC(=O)N1Cc2[nH]nc(NC(=O)c3ccc(cc3)N3CCN(C)CC3)c2C1,1,Preclinical,Aurora kinase inhibitor,targeted cancer,3
+fosaprepitant-dimeglumine,C[C@@H](O[C@H]1OCCN(Cc2nn(c(=O)[nH]2)P(O)(O)=O)[C@H]1c1ccc(F)cc1)c1cc(cc(c1)C(F)(F)F)C(F)(F)F,0,Launched,tachykinin antagonist,noncancer,89
+EPZ005687,Cc1cc(C)c(CNC(=O)c2cc(cc3n(ncc23)C2CCCC2)-c2ccc(CN3CCOCC3)cc2)c(=O)[nH]1,0,Preclinical,histone lysine methyltransferase inhibitor,targeted cancer,64
+cefadroxil,CC1=C(N2[C@H](SC1)[C@H](NC(=O)C(N)c1ccc(O)cc1)C2=O)C(O)=O,0,Launched,bacterial cell wall synthesis inhibitor,noncancer,43
+loratadine,CCOC(=O)N1CCC(CC1)=C1c2ccc(Cl)cc2CCc2cccnc12,0,Launched,histamine receptor antagonist,noncancer,63
+CPCCOEt,CCOC(=O)C12CC1\C(=N/O)c1ccccc1O2,0,Preclinical,glutamate receptor antagonist,noncancer,60
+AMPA-(S),Cc1onc(O)c1C[C@H](N)C(O)=O,0,Preclinical,glutamate receptor agonist,noncancer,59
+dimercaptosuccinic-acid,OC(=O)[C@@H](S)[C@@H](S)C(O)=O,0,Launched,chelating agent,noncancer,47
+tedizolid,Cn1nnc(n1)-c1ccc(cn1)-c1ccc(cc1F)N1C[C@H](CO)OC1=O,1,Launched,bacterial 50S ribosomal subunit inhibitor,noncancer,40
+alacepril,C[C@H](CSC(C)=O)C(=O)N1CCC[C@H]1C(=O)N[C@@H](Cc1ccccc1)C(O)=O,0,Launched,angiotensin converting enzyme inhibitor,Unknown,35
+QX-222,Cc1cccc(C)c1NC(=O)C[N+](C)(C)C,0,Preclinical,sodium channel blocker,noncancer,87
+quinelorane,CCCN1CCC[C@@H]2Cc3nc(N)ncc3C[C@@H]12,0,Phase 3,dopamine receptor agonist,noncancer,52
+tipranavir,CCC[C@@]1(CCc2ccccc2)CC(=O)C([C@H](CC)c2cccc(NS(=O)(=O)c3ccc(cn3)C(F)(F)F)c2)C(=O)O1,1,Launched,HIV protease inhibitor,noncancer,15
+linagliptin,CC#CCn1c(nc2n(C)c(=O)n(Cc3nc(C)c4ccccc4n3)c(=O)c12)N1CCC[C@@H](N)C1,0,Launched,dipeptidyl peptidase inhibitor,noncancer,51
+esmolol,COC(=O)CCc1ccc(OCC(O)CNC(C)C)cc1,0,Launched,adrenergic receptor antagonist,noncancer,33
+ACY-1215,ONC(=O)CCCCCCNC(=O)c1cnc(nc1)N(c1ccccc1)c1ccccc1,1,Phase 1/Phase 2,HDAC inhibitor,targeted cancer,14
+taselisib,CC(C)n1nc(C)nc1-c1cn2CCOc3cc(ccc3-c2n1)-c1cnn(c1)C(C)(C)C(N)=O,1,Phase 3,PI3K inhibitor,targeted cancer,21
+chloroprocaine,CCN(CC)CCOC(=O)c1ccc(N)cc1Cl,0,Launched,sodium channel blocker,noncancer,87
+lorazepam,OC1N=C(c2ccccc2Cl)c2cc(Cl)ccc2NC1=O,1,Launched,benzodiazepine receptor agonist,noncancer,44
+endo-IWR-1,O=C(Nc1cccc2cccnc12)c1ccc(cc1)N1C(=O)[C@H]2[C@@H]3C[C@@H](C=C3)[C@H]2C1=O,1,Preclinical,PARP inhibitor,targeted cancer,20
+gefitinib,COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1,1,Launched,EGFR inhibitor,targeted cancer,10
+lofexidine,CC(Oc1c(Cl)cccc1Cl)C1=NCCN1,0,Launched,adrenergic receptor agonist,noncancer,32
+MGCD-265,Cn1cnc(c1)-c1cc2nccc(Oc3ccc(NC(=S)NC(=O)Cc4ccccc4)cc3F)c2s1,1,Preclinical,VEGFR inhibitor,targeted cancer,26
+azlocillin,CC1(C)S[C@@H]2[C@H](NC(=O)[C@H](NC(=O)N3CCNC3=O)c3ccccc3)C(=O)N2[C@H]1C(O)=O,0,Launched,bacterial cell wall synthesis inhibitor,Unknown,43
+veliparib,C[C@]1(CCCN1)c1nc2c(cccc2[nH]1)C(N)=O,0,Phase 3,PARP inhibitor,targeted cancer,20
+CGP-37849,C\C(CP(O)(O)=O)=C/C(N)C(O)=O,1,Phase 1,glutamate receptor antagonist,noncancer,60
+PF-03084014,CCC[C@H](N[C@H]1CCc2cc(F)cc(F)c2C1)C(=O)Nc1cn(cn1)C(C)(C)CNCC(C)(C)C,0,Phase 2,gamma secretase inhibitor,targeted cancer,57
+troleandomycin,CO[C@H]1C[C@H](O[C@H]2[C@H](C)[C@@H](OC3O[C@H](C)C[C@@H]([C@H]3OC(C)=O)N(C)C)[C@@H](C)C[C@]3(CO3)C(=O)[C@H](C)[C@@H](OC(C)=O)[C@@H](C)[C@@H](C)OC(=O)[C@@H]2C)O[C@@H](C)[C@@H]1OC(C)=O,0,Launched,protein synthesis inhibitor,noncancer,81
+PH-797804,CNC(=O)c1ccc(C)c(c1)-n1c(C)cc(OCc2ccc(F)cc2F)c(Br)c1=O,0,Phase 2,p38 MAPK inhibitor,noncancer,75
+rocuronium,CC(=O)O[C@H]1[C@H](C[C@H]2[C@@H]3CC[C@H]4C[C@H](O)[C@H](C[C@]4(C)[C@H]3CC[C@]12C)N1CCOCC1)[N+]1(CC=C)CCCC1,0,Launched,acetylcholine receptor antagonist,noncancer,28
+methapyrilene,CN(C)CCN(Cc1cccs1)c1ccccn1,0,Withdrawn,histamine receptor antagonist,noncancer,63
+broxaterol,CC(C)(C)NCC(O)c1cc(Br)no1,0,Phase 3,adrenergic receptor agonist,noncancer,32
+ufenamate,CCCCOC(=O)c1ccccc1Nc1cccc(c1)C(F)(F)F,0,Launched,cyclooxygenase inhibitor,noncancer,49
+cidofovir,Nc1ccn(C[C@@H](CO)OCP(O)(O)=O)c(=O)n1,1,Launched,DNA polymerase inhibitor,noncancer,8
+pramipexole,CCCN[C@H]1CCc2nc(N)sc2C1,0,Launched,dopamine receptor agonist,noncancer,52
+CNQX,[O-][N+](=O)c1cc2[nH]c(=O)c(=O)[nH]c2cc1C#N,0,Phase 1,glutamate receptor antagonist,noncancer,60
+telenzepine,CN1CCN(CC(=O)N2c3c(C)scc3C(=O)Nc3ccccc23)CC1,0,Phase 3,acetylcholine receptor antagonist,noncancer,28
+fenofibrate,CC(C)OC(=O)C(C)(C)Oc1ccc(cc1)C(=O)c1ccc(Cl)cc1,1,Launched,PPAR receptor agonist,noncancer,22
+lirimilast,CS(=O)(=O)Oc1ccc2c(NC(N)=O)c(oc2c1)C(=O)c1ccc(Cl)cc1Cl,0,Phase 2,phosphodiesterase inhibitor,noncancer,76
+cycloheximide,C[C@H]1C[C@H](C)C(=O)[C@@H](C1)[C@H](O)CC1CC(=O)NC(=O)C1,1,Preclinical,protein synthesis inhibitor,targeted cancer,81

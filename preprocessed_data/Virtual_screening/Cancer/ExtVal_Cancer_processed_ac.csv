@@ -1,0 +1,20 @@
+name,smiles,label100,drug_category
+PR-619,Nc1nc(N)c(SC#N)cc1SC#N,1,noncancer
+P22077,CC(=O)c1cc(c(Sc2ccc(F)cc2F)s1)[N+]([O-])=O,1,noncancer
+anagrelide,Clc1ccc2N=C3NC(=O)CN3Cc2c1Cl,1,targeted cancer
+DCEBIO,CCn1c(O)nc2cc(Cl)c(Cl)cc12,1,noncancer
+drospirenone,C[C@]12CC[C@H]3[C@@H]([C@H]4C[C@H]4C4=CC(=O)CC[C@]34C)[C@@H]1[C@@H]1C[C@@H]1[C@@]21CCC(=O)O1,1,noncancer
+zardaverine,COc1cc(ccc1OC(F)F)-c1ccc(=O)[nH]n1,1,noncancer
+mevastatin,CC[C@H](C)C(=O)O[C@H]1CCC=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12,1,noncancer
+benzethonium,CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1,1,noncancer
+tioxolone,Oc1ccc2sc(=O)oc2c1,1,noncancer
+lovastatin,CC[C@H](C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12,1,noncancer
+tepoxalin,COc1ccc(cc1)-n1nc(CCC(=O)N(C)O)cc1-c1ccc(Cl)cc1,1,noncancer
+danazol,C[C@]12CCC3C(CCC4=Cc5oncc5C[C@]34C)C1CC[C@@]2(O)C#C,1,noncancer
+tanaproget,Cn1c(ccc1-c1ccc2NC(=S)OC(C)(C)c2c1)C#N,1,Unknown
+gestrinone,CC[C@]12C=CC3=C4CCC(=O)C=C4CC[C@H]3[C@@H]1CC[C@@]2(O)C#C,1,noncancer
+pitavastatin,O[C@H](C[C@H](O)\C=C\c1c(nc2ccccc2c1-c1ccc(F)cc1)C1CC1)CC(O)=O,1,noncancer
+disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC,1,noncancer
+norethindrone,C[C@]12CC[C@H]3[C@@H](CCC4=CC(=O)CC[C@H]34)[C@@H]1CC[C@@]2(O)C#C,1,noncancer
+simvastatin,CCC(C)(C)C(=O)O[C@H]1C[C@@H](C)C=C2C=C[C@H](C)[C@H](CC[C@@H]3C[C@@H](O)CC(=O)O3)[C@@H]12,1,noncancer
+bis(maltolato)oxovanadium(IV),Cc1occc(=O)c1O[V](=O)Oc1c(C)occc1=O,1,noncancer

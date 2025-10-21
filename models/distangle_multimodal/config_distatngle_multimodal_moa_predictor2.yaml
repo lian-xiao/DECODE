@@ -1,0 +1,259 @@
+# 多模态MOA预测模型配置文件
+
+model_config:
+  # 输入输出维度
+  drug_dim: 768
+  dose_dim: 1
+  rna_dim: 978
+  pheno_dim: 1783
+  num_moa_classes: 12  # 根据实际MOA类别数调整
+  
+  # 多标签分类参数
+  multi_label_classification: false  # true为多标签分类，false为多分类
+  
+  # 剂量编码参数
+  dose_embedding_dim: 64
+  dose_scaling_method: 'gate'  # 'multiply', 'concat', 'gate'
+  
+  # 网络结构参数
+  encoder_hidden_dims: [1024, 512] #[1024,512] [1024, 256]
+  simulator_hidden_dims: [512, 1024] #[512,1024] [256, 1024]
+  fusion_dim: 256 # 1024
+  classifier_hidden_dims: [512, 256] #[512,256] [256, 128]
+  dropout_rate: 0.1
+  batch_norm: true
+  activation: 'relu'  # 'relu', 'gelu', 'leaky_relu', 'tanh', 'elu'
+  
+  # 特征分解参数
+  shared_encoder_hidden_dims: [256, 128]  # 共享特征编码器
+  unique_encoder_hidden_dims: [256, 128]  # 独特特征编码器
+  
+  # 特征融合策略
+  feature_fusion_strategy: 'add_mean'  # 'add_mean', 'attention'
+  
+  # 注意力机制参数
+  use_attention: false
+  attention_heads: 8
+  attention_dropout: 0.1
+  
+  use_gau_fusion: false
+  gau_layers: 1
+  gau_attention_key_size: 64
+
+  # 损失函数权重
+  reconstruction_loss_weight: 0.0  # 重建损失权重
+  classification_loss_weight: 1.0  # MOA分类损失权重 (第一阶段设为0，第二阶段设为1.0)
+  shared_contrastive_loss_weight: 0  # 共享特征对比学习权重
+  orthogonal_loss_weight: 0  # 正交性约束权重
+  
+  # 训练阶段控制
+  is_stage1: true  # true为第一阶段(重建+特征分解), false为第二阶段(分类)
+
+  # 重建损失函数配置
+  reconstruction_loss_type: 'tabular'  # 'mse', 'mae', 'huber', 'cosine', 'mmd', 'tabular'
+  # MMD损失特定参数
+  mmd_kernel: 'energy'      # MMD核函数类型
+  mmd_blur: 0.05           # MMD模糊参数
+  mmd_scaling: 0.5         # MMD缩放参数
+  mmd_downsample: 1        # MMD下采样参数
+  
+  # Tabular损失特定参数
+  tabular_shared: 128      # Tabular损失共享维度
+  
+  # 训练参数
+  learning_rate: 0.0005
+  weight_decay: 0.0001
+  optimizer: 'adamw'  # 'adam', 'adamw'
+  scheduler: 'reduce_lr'  # 'reduce_lr', 'cosine'
+  scheduler_patience: 5
+  scheduler_factor: 0.5
+
+# 数据配置
+data:
+  dataset_name: "normalized_variable_selected_highRepUnion_nRep2" # variable_selected_
+  batch_size: 256
+  num_workers: 0
+  pin_memory: true
+  shuffle: true
+  split_strategy: 'scaffold' #'random', 'scaffold', 'plate'
+  # 数据分割比例
+  train_split: 0.7
+  val_split: 0.1
+  test_split: 0.2
+  
+  # 数据加载配置
+  preload_features: true
+  preload_metadata: true
+  return_metadata: true
+  device: 'cpu'
+  random_seed: 42
+  
+  # 特征组和元数据配置
+  feature_groups_only: null  # null表示加载所有特征组，或者指定列表如[0, 1, 2, 3]
+  metadata_columns_only: ['Metadata_moa', 'Metadata_Plate','Metadata_SMILES']
+  
+  # MOA相关配置
+  moa_column: 'Metadata_moa'
+  save_label_encoder: true
+  
+  # 多标签分类配置
+  multi_label_classification: false  # true为多标签分类，false为多分类
+  label_separator: '|'  # 多标签分隔符
+  min_label_frequency: 1  # 最小标签频率阈值
+  
+  # 特征组到模态的映射
+  feature_group_mapping:
+    0: 'pheno'    # 表型数据
+    1: 'rna'      # RNA表达数据  
+    2: 'drug'     # 药物特征
+    3: 'dose'     # 剂量信息
+  
+  # 归一化配置
+  normalize_features: false
+  normalization_method: 'standardize'  # 'standardize', 'minmax', 'none'
+  exclude_modalities: ['dose']  # 剂量通常不需要归一化
+  save_scalers: true
+  
+
+# 训练配置
+training:
+  max_epochs: 100
+  val_check_interval: 1.0
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  precision: 32
+  independent_training: false  # 默认为Sequential训练（使用Stage1权重）
+  # 早停配置
+  early_stopping:
+    monitor: 'val_no_missing_moa_f1_macro' # 'val_no_missing_moa_f1_macro'  # 简化为监控总验证损失
+    patience: 15
+    mode: 'max'
+    min_delta: 0.0001
+    verbose: true
+  
+  # 模型检查点配置
+  checkpoint:
+    monitor: 'val_no_missing_moa_f1_macro'  # 简化为监控总验证损失
+    mode: 'max'
+    save_top_k: 1
+    save_last: false
+    filename: 'multimodal-moa-{epoch:02d}-{val_no_missing_moa_f1_macro:.6f}'
+    auto_insert_metric_name: false
+
+# 验证和测试配置
+evaluation:
+  # 要评估的场景
+  scenarios:
+    - 'no_missing'      # 无缺失
+    - 'pheno_missing'   # 表型缺失
+    - 'rna_missing'     # RNA缺失
+    - 'both_missing'    # 均缺失
+  
+  # 评估指标
+  metrics:
+    reconstruction:
+      - 'mse'
+      - 'mae'
+      - 'rmse'
+      - 'r2'
+      - 'overall_pearson'
+      - 'sample_wise_r2_mean'
+      - 'feature_wise_r2_mean'
+    
+    classification:
+      - 'accuracy'
+      - 'f1_macro'
+      - 'f1_weighted'
+      - 'precision_macro'
+      - 'recall_macro'
+      - 'roc_auc_macro'
+
+# 实验配置
+experiment:
+  name: 'multimodal_moa_prediction'
+  version: 'v1.0'
+  description: 'Multi-modal MOA prediction with missing modality simulation'
+  
+  # 日志配置
+  log_every_n_steps: 50
+  save_dir: './experiments/multimodal_moa'
+
+# 多标签分类说明
+architecture_notes:
+  feature_decomposition: |
+    The model uses shared-unique feature decomposition:
+    - Shared features: Common across all modalities, learned through shared encoder
+    - Unique features: Modality-specific, learned through separate encoders
+    - Feature fusion: Combines shared and unique features for downstream tasks
+  
+  scenarios: |
+    The model handles four missing modality scenarios:
+    1. No Missing: Drug + RNA + Phenotype → Feature decomposition → MOA
+    2. Phenotype Missing: Drug + RNA → Feature decomposition → Simulated Phenotype → MOA
+    3. RNA Missing: Drug + Phenotype → Feature decomposition → Simulated RNA → MOA
+    4. Both Missing: Drug → Feature decomposition → Simulated RNA + Simulated Phenotype → MOA
+  
+  training_stages: |
+    Manual two-stage training (controlled by configuration):
+    Stage 1 (is_stage1=true): Reconstruction + Feature decomposition learning
+      - reconstruction_loss_weight > 0, classification_loss_weight = 0
+    Stage 2 (is_stage1=false): MOA classification (can keep reconstruction)
+      - classification_loss_weight > 0, reconstruction_loss_weight can be > 0 or = 0
+  
+  multilabel_classification: |
+    Support for both single-label and multi-label MOA classification:
+    - Single-label (multi_label_classification=false): Traditional one-label-per-sample classification
+      Uses FocalLoss and softmax activation
+    - Multi-label (multi_label_classification=true): Multiple-labels-per-sample classification  
+      Uses BCEWithLogitsLoss and sigmoid activation
+      Example: 'smoothened receptor antagonist|hedgehog pathway inhibitor'
+
+# 损失函数说明
+loss_explanation:
+  reconstruction_loss: |
+    Reconstructs missing modalities using fused features (shared + unique).
+    In stage 1, all modalities are reconstructed from 'no_missing' scenario.
+    In stage 2, only missing modalities are reconstructed.
+    
+  classification_loss: |
+    Cross-entropy loss for MOA prediction.
+    Uses FocalLoss to handle class imbalance.
+    
+  shared_contrastive_loss: |
+    InfoNCE loss ensuring shared features from different modalities
+    of the same sample are similar (positive pairs) while different
+    samples are dissimilar (negative pairs).
+    
+  orthogonal_loss: |
+    Ensures feature disentanglement:
+    1. Unique features ⊥ Shared features
+    2. Different modality unique features ⊥ each other
+    Uses cosine similarity minimization.
+
+# 使用建议
+usage_recommendations:
+  stage1_training: |
+    - Set is_stage1=true, classification_loss_weight=0
+    - Focus on reconstruction quality and feature learning
+    - Monitor train_recon_loss, train_contrastive_loss, train_orthogonal_loss
+    
+  stage2_training: |
+    - Set is_stage1=false, classification_loss_weight>0
+    - Load pretrained weights from stage 1
+    - Can keep reconstruction_loss_weight>0 for regularization
+    - Monitor train_moa_loss and val_loss for early stopping
+  
+  multilabel_setup: |
+    For multi-label MOA classification:
+    1. Set multi_label_classification=true in both model_config and data sections
+    2. Ensure MOA labels are in format 'label1|label2|...' for samples with multiple labels
+    3. Adjust label_separator (default: '|') and min_label_frequency as needed
+    4. Monitor appropriate metrics: use f1_macro/f1_micro instead of accuracy
+    5. Consider using subset_accuracy and hamming_loss for multi-label evaluation
+    
+  single_vs_multilabel: |
+    Single-label vs Multi-label differences:
+    - Loss function: FocalLoss vs BCEWithLogitsLoss
+    - Activation: Softmax vs Sigmoid  
+    - Target format: Class indices [batch_size] vs Binary matrix [batch_size, num_classes]
+    - Metrics: Standard classification metrics vs Multi-label specific metrics
