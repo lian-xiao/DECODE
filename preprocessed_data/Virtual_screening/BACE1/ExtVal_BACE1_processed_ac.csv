@@ -4,7 +4,7 @@ index,name,cas,smiles,canonical_smiles,label,IC50(nM),IC50(nM)_clean
 6,BACE1-IN-1,1310347-50-2,C[C@]1(c2cc(NC(=O)c3ccc(C#N)cn3)ccc2F)N=C(N)OCC1(F)F,C[C@]1(c2cc(NC(=O)c3ccc(C#N)cn3)ccc2F)N=C(N)OCC1(F)F,-1,32,32
 9,BACE1-IN-2,1352416-78-4,C[C@]1(c2cc(NC(=O)c3ccc(C#N)cn3)ccc2F)N=C(N)CO[C@H]1C(F)(F)F,C[C@]1(c2cc(NC(=O)c3ccc(C#N)cn3)ccc2F)N=C(N)CO[C@H]1C(F)(F)F,-1,22,22
 13,LY2886721,1262036-50-9,NC1=N[C@@]2(c3cc(NC(=O)c4ccc(F)cn4)ccc3F)COC[C@H]2CS1,NC1=N[C@@]2(c3cc(NC(=O)c4ccc(F)cn4)ccc3F)COC[C@H]2CS1,-1,20.3,20.3
-14,Î²-Secretase Inhibitor IV,797035-11-1,C[C@@H](NC(=O)c1cc(C(=O)N[C@@H](Cc2ccccc2)[C@H](O)CNC2CC2)cc(N(C)S(C)(=O)=O)c1)c1ccccc1,C[C@@H](NC(=O)c1cc(C(=O)N[C@@H](Cc2ccccc2)[C@H](O)CNC2CC2)cc(N(C)S(C)(=O)=O)c1)c1ccccc1,-1,15.6,15.6
+14,¦Â-secretase inhibitor,797035-11-1,C[C@@H](NC(=O)c1cc(C(=O)N[C@@H](Cc2ccccc2)[C@H](O)CNC2CC2)cc(N(C)S(C)(=O)=O)c1)c1ccccc1,C[C@@H](NC(=O)c1cc(C(=O)N[C@@H](Cc2ccccc2)[C@H](O)CNC2CC2)cc(N(C)S(C)(=O)=O)c1)c1ccccc1,-1,15.6,15.6
 12,Umibecestat,1387560-01-1,C[C@@]1(c2nc(NC(=O)c3ncc(C(F)(F)F)cc3Cl)ccc2F)CO[C@@](C)(C(F)(F)F)C(N)=N1,C[C@@]1(c2nc(NC(=O)c3ncc(C(F)(F)F)cc3Cl)ccc2F)CO[C@@](C)(C(F)(F)F)C(N)=N1,-1,11,11
 10,BACE1/2-IN-1,2671036-34-1,C[C@@H]1C[C@H]1COC(C)(C)[C@@H]1C[C@H]1[C@]12CN(c3ncccn3)C[C@H]1CSC(N)=N2,C[C@@H]1C[C@H]1COC(C)(C)[C@@H]1C[C@H]1[C@]12CN(c3ncccn3)C[C@H]1CSC(N)=N2,-1,10,10
 25,NB-360,1262857-73-7,Cc1cc(C#N)cnc1C(=O)Nc1ccc(F)c([C@]2(C)CO[C@@](C)(C(F)(F)F)C(N)=N2)c1,Cc1cc(C#N)cnc1C(=O)Nc1ccc(F)c([C@]2(C)CO[C@@](C)(C(F)(F)F)C(N)=N2)c1,-1,5,5

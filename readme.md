@@ -1,4 +1,3 @@
-
 # DECODE: Disentangled Multimodal Model for Virtual Screening
 
 ## Overview
@@ -19,14 +18,13 @@ DECODE/
 ├── models/distangle_multimodal/
 │   ├── train.py                 # Training script for multimodal disentanglement
 │   ├── model.py                 # Core model architecture
-│   ├── dataloader.py            # Data loading utilities
 │   └── config.yaml              # Model configuration
 ├── virtual_screening/
 │   ├── train.py                 # Virtual screening model training
-│   ├── evaluation.py            # Screening performance evaluation
-│   ├── utils.py                 # Helper functions
+│   ├── model.py                 # Core model architecture
 │   └── config.yaml              # Screening configuration
-├── data/                        # Dataset directory (to be populated)
+├── DModule/                     # DataModule
+├── preprocessed_data/           # Dataset directory (to be populated)
 ├── results/                     # Output directory for results
 └── requirements.txt             # Dependencies
 ```
@@ -72,7 +70,7 @@ python train_pathway_prediction.py
 ## Requirements
 
 - Python 3.8+
-- PyTorch >= 1.9
+- PyTorch >= 2.2
 - NumPy, Pandas, scikit-learn
 - See `requirements.txt` for complete dependencies
 
@@ -82,9 +80,9 @@ If you use DECODE in your research, please cite:
 
 ```bibtex
 @article{decode2024,
-  title={DECODE: Disentangled Multimodal Learning for Virtual Screening},
-  author={Your Name},
-  year={2024}
+  title={A Measurement-Invariant Functional Fingerprint of Drug Action through Disentanglement of Multi-Modal Cellular Profiles},
+  author={Xiaoqing Lian , Xiangxiang Zeng , Pengsen Ma , Tengfei Ma , Xibao Cai , Zhixiang Cheng , He Wang , Xiang Pan , Quan Zou , Chen Lin},
+  year={2025}
 }
 ```
 

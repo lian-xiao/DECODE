@@ -1,10 +1,10 @@
 index,name,cas,smiles,canonical_smiles,label,IC50(nM),IC50(nM)_clean
 1,EP4?receptor antagonist 1,2287259-07-6,C/C=C/c1nnn(Cc2ccc(C(F)(F)F)cc2)c1C(=O)N[C@@H](C)c1ccc(C(=O)O)cc1,C/C=C/c1nnn(Cc2ccc(C(F)(F)F)cc2)c1C(=O)N[C@@H](C)c1ccc(C(=O)O)cc1,-1,6.1,6.1
-9,BAY-1316957,1613264-40-6,CCn1c2ccc(C)cc2c2cc(-c3nc4c(C)c(C(=O)O)ccc4n3CCOC)ccc21,CCn1c2ccc(C)cc2c2cc(-c3nc4c(C)c(C(=O)O)ccc4n3CCOC)ccc21,-1,15.3,15.3
-10,ER-819762,1155773-15-1,CCN1C(=O)N2Cc3cc(OC)cc(OC)c3[C@@H](C)C=C2C12CCN(Cc1cc(C)cc(C)c1)CC2,CCN1C(=O)N2Cc3cc(OC)cc(OC)c3[C@@H](C)C=C2C12CCN(Cc1cc(C)cc(C)c1)CC2,-1,70,70
-11,Grapiprant,415903-37-6,CCc1nc2c(C)nc(C)cc2n1-c1ccc(CCNC(=O)NS(=O)(=O)c2ccc(C)cc2)cc1,CCc1nc2c(C)nc(C)cc2n1-c1ccc(CCNC(=O)NS(=O)(=O)c2ccc(C)cc2)cc1,-1,35,35
-12,TP-16,2332972-26-4,C[C@H](NC(=O)c1c(Cc2ccc(F)cc2)sc2c1CCOC2)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1c(Cc2ccc(F)cc2)sc2c1CCOC2)c1ccc(C(=O)O)cc1,-1,2.1,2.1
-14,Palupiprant,1369489-71-3,C[C@H](NC(=O)c1c(C(F)F)nn(C)c1Oc1cccc(C(F)(F)F)c1)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1c(C(F)F)nn(C)c1Oc1cccc(C(F)(F)F)c1)c1ccc(C(=O)O)cc1,-1,13.5,13.5
-18,CJ-42794,847728-01-2,C[C@H](NC(=O)c1cc(Cl)ccc1Oc1ccc(F)cc1)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1cc(Cl)ccc1Oc1ccc(F)cc1)c1ccc(C(=O)O)cc1,-1,10,10
-19,MK-2894,1006036-87-8,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1,-1,2.5,2.5
-20,MK-2894 sodium salt,1006036-88-9,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1.[NaH],Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1.[NaH],-1,2.5,2.5
+2,BAY-1316957,1613264-40-6,CCn1c2ccc(C)cc2c2cc(-c3nc4c(C)c(C(=O)O)ccc4n3CCOC)ccc21,CCn1c2ccc(C)cc2c2cc(-c3nc4c(C)c(C(=O)O)ccc4n3CCOC)ccc21,-1,15.3,15.3
+3,ER-819762,1155773-15-1,CCN1C(=O)N2Cc3cc(OC)cc(OC)c3[C@@H](C)C=C2C12CCN(Cc1cc(C)cc(C)c1)CC2,CCN1C(=O)N2Cc3cc(OC)cc(OC)c3[C@@H](C)C=C2C12CCN(Cc1cc(C)cc(C)c1)CC2,-1,70,70
+4,Grapiprant,415903-37-6,CCc1nc2c(C)nc(C)cc2n1-c1ccc(CCNC(=O)NS(=O)(=O)c2ccc(C)cc2)cc1,CCc1nc2c(C)nc(C)cc2n1-c1ccc(CCNC(=O)NS(=O)(=O)c2ccc(C)cc2)cc1,-1,35,35
+5,TP-16,2332972-26-4,C[C@H](NC(=O)c1c(Cc2ccc(F)cc2)sc2c1CCOC2)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1c(Cc2ccc(F)cc2)sc2c1CCOC2)c1ccc(C(=O)O)cc1,-1,2.1,2.1
+6,Palupiprant,1369489-71-3,C[C@H](NC(=O)c1c(C(F)F)nn(C)c1Oc1cccc(C(F)(F)F)c1)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1c(C(F)F)nn(C)c1Oc1cccc(C(F)(F)F)c1)c1ccc(C(=O)O)cc1,-1,13.5,13.5
+7,CJ-42794,847728-01-2,C[C@H](NC(=O)c1cc(Cl)ccc1Oc1ccc(F)cc1)c1ccc(C(=O)O)cc1,C[C@H](NC(=O)c1cc(Cl)ccc1Oc1ccc(F)cc1)c1ccc(C(=O)O)cc1,-1,10,10
+8,MK-2894,1006036-87-8,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1,-1,2.5,2.5
+9,MK-2894 sodium salt,1006036-88-9,Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1.[NaH],Cc1sc(C)c(C(=O)NC2(c3ccc(C(=O)O)cc3)CC2)c1Cc1ccc(C(F)(F)F)cc1.[NaH],-1,2.5,2.5

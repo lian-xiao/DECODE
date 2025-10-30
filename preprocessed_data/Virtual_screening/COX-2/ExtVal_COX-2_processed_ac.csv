@@ -1,36 +1,36 @@
 index,name,cas,smiles,canonical_smiles,label,IC50(nM),IC50(nM)_clean
-63,Tilmacoxib,180200-68-4,Cc1nc(C2CCCCC2)c(-c2ccc(S(N)(=O)=O)c(F)c2)o1,Cc1nc(C2CCCCC2)c(-c2ccc(S(N)(=O)=O)c(F)c2)o1,-1,85,85
-17,COX-2/15-LOX-IN-1,2413565-15-6,CSc1nc2ccccc2n1-c1csc(NCC(C)=NNC(=S)Nc2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NNC(=S)Nc2ccccc2)n1,-1,75,75
-10,COX-2-IN-26,2413565-19-0,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=C2SCC(=O)N2c2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=C2SCC(=O)N2c2ccccc2)n1,-1,67,67
-5,COX-2-IN-28,2413565-18-9,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=c2scc(-c3ccc(C)cc3)n2-c2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=c2scc(-c3ccc(C)cc3)n2-c2ccccc2)n1,-1,54,54
-121,Fenofibric acid,42017-89-0,CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)O,CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)O,-1,48,48
-43,SC-58125,162054-19-5,CS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(F)cc2)cc1,CS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(F)cc2)cc1,-1,40,40
-59,Celecoxib,169590-42-5,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,-1,40,40
-15,COX-2-IN-21,2519631-11-7,COc1cc(C2CC(c3cccc(-n4cnnn4)c3)=NN2C(C)=O)cc(OC)c1OC,COc1cc(C2CC(c3cccc(-n4cnnn4)c3)=NN2C(C)=O)cc(OC)c1OC,-1,39,39
-97,Desmethyl Celecoxib,170569-87-6,NS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccccc2)cc1,NS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccccc2)cc1,-1,32,32
-90,Eltenac,72895-88-6,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,-1,30,30
-65,S-(+)-Ketoprofen,22161-81-5,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,27,27
-35,Rofecoxib,162011-90-7,CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,-1,26,26
-38,Indomethacin (Indometacin) sodium,7681-54-1,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],-1,26,26
-39,Indomethacin,53-86-1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
-42,Indomethacin (Indometacin) sodium hydrateis,74252-25-8,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
-60,Indomethacin farnesil,85801-02-1,COc1ccc2c(c1)c(CC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
-88,SC57666,158959-32-1,CS(=O)(=O)c1ccc(C2=C(c3ccc(F)cc3)CCC2)cc1,CS(=O)(=O)c1ccc(C2=C(c3ccc(F)cc3)CCC2)cc1,-1,26,26
-170,Ketoprofen,22071-15-4,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,26,26
-18,COX-2-IN-17,2411390-10-6,COC(=O)[C@@H](N)Cc1cn(-c2nc(Cl)nc(N3CCCCC3)n2)c2ccccc12,COC(=O)[C@@H](N)Cc1cn(-c2nc(Cl)nc(N3CCCCC3)n2)c2ccccc12,-1,20,20
-104,Imrecoxib,395683-14-4,CCCN1CC(c2ccc(S(C)(=O)=O)cc2)=C(c2ccc(C)cc2)C1=O,CCCN1CC(c2ccc(S(C)(=O)=O)cc2)=C(c2ccc(C)cc2)C1=O,-1,18,18
-13,COX-2-IN-20,2529451-43-0,COC(=O)c1nc(CCl)n(-c2ccc(F)cc2)n1,COC(=O)c1nc(CCl)n(-c2ccc(F)cc2)n1,-1,17.9,17.9
-55,FR-188582,189699-82-9,CS(=O)(=O)c1ccc(-c2cc(Cl)nn2-c2ccccc2)cc1,CS(=O)(=O)c1ccc(-c2cc(Cl)nn2-c2ccccc2)cc1,-1,17,17
-45,S-2474,158089-95-3,CCN1CC/C(=C\c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)S1(=O)=O,CCN1CC/C(=C\c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)S1(=O)=O,-1,11,11
-22,COX-2/5-LOX-IN-2,2410384-59-5,NS(=O)(=O)c1ccc(-n2nc(C(=O)O)cc2-c2cc3ccccc3s2)cc1,NS(=O)(=O)c1ccc(-n2nc(C(=O)O)cc2-c2cc3ccccc3s2)cc1,-1,10,10
-58,DuP-697,88149-94-4,CS(=O)(=O)c1ccc(-c2cc(Br)sc2-c2ccc(F)cc2)cc1,CS(=O)(=O)c1ccc(-c2cc(Br)sc2-c2ccc(F)cc2)cc1,-1,10,10
-61,Lornoxicam,70374-39-9,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,-1,8,8
-93,Bromfenac,91714-94-2,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,-1,7.45,7.45
-94,Bromfenac sodium,91714-93-1,Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],-1,7.45,7.45
-37,Valdecoxib,181695-72-7,Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1,Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1,-1,5,5
-135,Thioflosulide,158205-05-1,CS(=O)(=O)Nc1cc2c(cc1Sc1ccc(F)cc1F)C(=O)CC2,CS(=O)(=O)Nc1cc2c(cc1Sc1ccc(F)cc1F)C(=O)CC2,-1,2.3,2.3
-27,Diclofenac,15307-86-5,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,1.3,1.3
-28,Diclofenac potassium,15307-81-0,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],-1,1.3,1.3
-30,Diclofenac diethylamine,78213-16-8,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,1.3,1.3
-31,Diclofenac Sodium,15307-79-6,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],-1,1.3,1.3
-41,Anti-inflammatory agent 8,1103920-19-9,Cc1c(C(=O)NNC(=S)Nc2ccccc2)sc2nc3ccccc3n12,Cc1c(C(=O)NNC(=S)Nc2ccccc2)sc2nc3ccccc3n12,-1,0.09,0.09
+1,Tilmacoxib,180200-68-4,Cc1nc(C2CCCCC2)c(-c2ccc(S(N)(=O)=O)c(F)c2)o1,Cc1nc(C2CCCCC2)c(-c2ccc(S(N)(=O)=O)c(F)c2)o1,-1,85,85
+2,COX-2/15-LOX-IN-1,2413565-15-6,CSc1nc2ccccc2n1-c1csc(NCC(C)=NNC(=S)Nc2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NNC(=S)Nc2ccccc2)n1,-1,75,75
+3,COX-2-IN-26,2413565-19-0,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=C2SCC(=O)N2c2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=C2SCC(=O)N2c2ccccc2)n1,-1,67,67
+4,COX-2-IN-28,2413565-18-9,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=c2scc(-c3ccc(C)cc3)n2-c2ccccc2)n1,CSc1nc2ccccc2n1-c1csc(NCC(C)=NN=c2scc(-c3ccc(C)cc3)n2-c2ccccc2)n1,-1,54,54
+5,Fenofibric acid,42017-89-0,CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)O,CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)O,-1,48,48
+6,SC-58125,162054-19-5,CS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(F)cc2)cc1,CS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(F)cc2)cc1,-1,40,40
+7,Celecoxib,169590-42-5,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,Cc1ccc(-c2cc(C(F)(F)F)nn2-c2ccc(S(N)(=O)=O)cc2)cc1,-1,40,40
+8,COX-2-IN-21,2519631-11-7,COc1cc(C2CC(c3cccc(-n4cnnn4)c3)=NN2C(C)=O)cc(OC)c1OC,COc1cc(C2CC(c3cccc(-n4cnnn4)c3)=NN2C(C)=O)cc(OC)c1OC,-1,39,39
+9,Desmethyl Celecoxib,170569-87-6,NS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccccc2)cc1,NS(=O)(=O)c1ccc(-n2nc(C(F)(F)F)cc2-c2ccccc2)cc1,-1,32,32
+10,Eltenac,72895-88-6,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,-1,30,30
+11,S-(+)-Ketoprofen,22161-81-5,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,27,27
+12,Rofecoxib,162011-90-7,CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,CS(=O)(=O)c1ccc(C2=C(c3ccccc3)C(=O)OC2)cc1,-1,26,26
+13,Indomethacin (Indometacin) sodium,7681-54-1,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],-1,26,26
+14,Indomethacin,53-86-1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
+15,Indomethacin (Indometacin) sodium hydrateis,74252-25-8,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
+16,Indomethacin farnesil,85801-02-1,COc1ccc2c(c1)c(CC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OCC=C(C)CCC=C(C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,26,26
+17,SC57666,158959-32-1,CS(=O)(=O)c1ccc(C2=C(c3ccc(F)cc3)CCC2)cc1,CS(=O)(=O)c1ccc(C2=C(c3ccc(F)cc3)CCC2)cc1,-1,26,26
+18,Ketoprofen,22071-15-4,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,26,26
+19,COX-2-IN-17,2411390-10-6,COC(=O)[C@@H](N)Cc1cn(-c2nc(Cl)nc(N3CCCCC3)n2)c2ccccc12,COC(=O)[C@@H](N)Cc1cn(-c2nc(Cl)nc(N3CCCCC3)n2)c2ccccc12,-1,20,20
+20,Imrecoxib,395683-14-4,CCCN1CC(c2ccc(S(C)(=O)=O)cc2)=C(c2ccc(C)cc2)C1=O,CCCN1CC(c2ccc(S(C)(=O)=O)cc2)=C(c2ccc(C)cc2)C1=O,-1,18,18
+21,COX-2-IN-20,2529451-43-0,COC(=O)c1nc(CCl)n(-c2ccc(F)cc2)n1,COC(=O)c1nc(CCl)n(-c2ccc(F)cc2)n1,-1,17.9,17.9
+22,FR-188582,189699-82-9,CS(=O)(=O)c1ccc(-c2cc(Cl)nn2-c2ccccc2)cc1,CS(=O)(=O)c1ccc(-c2cc(Cl)nn2-c2ccccc2)cc1,-1,17,17
+23,S-2474,158089-95-3,CCN1CC/C(=C\c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)S1(=O)=O,CCN1CC/C(=C\c2cc(C(C)(C)C)c(O)c(C(C)(C)C)c2)S1(=O)=O,-1,11,11
+24,COX-2/5-LOX-IN-2,2410384-59-5,NS(=O)(=O)c1ccc(-n2nc(C(=O)O)cc2-c2cc3ccccc3s2)cc1,NS(=O)(=O)c1ccc(-n2nc(C(=O)O)cc2-c2cc3ccccc3s2)cc1,-1,10,10
+25,DuP-697,88149-94-4,CS(=O)(=O)c1ccc(-c2cc(Br)sc2-c2ccc(F)cc2)cc1,CS(=O)(=O)c1ccc(-c2cc(Br)sc2-c2ccc(F)cc2)cc1,-1,10,10
+26,Lornoxicam,70374-39-9,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,-1,8,8
+27,Bromfenac,91714-94-2,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,-1,7.45,7.45
+28,Bromfenac sodium,91714-93-1,Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],-1,7.45,7.45
+29,Valdecoxib,181695-72-7,Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1,Cc1onc(-c2ccccc2)c1-c1ccc(S(N)(=O)=O)cc1,-1,5,5
+30,Thioflosulide,158205-05-1,CS(=O)(=O)Nc1cc2c(cc1Sc1ccc(F)cc1F)C(=O)CC2,CS(=O)(=O)Nc1cc2c(cc1Sc1ccc(F)cc1F)C(=O)CC2,-1,2.3,2.3
+31,Diclofenac,15307-86-5,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,1.3,1.3
+32,Diclofenac potassium,15307-81-0,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],-1,1.3,1.3
+33,Diclofenac diethylamine,78213-16-8,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,1.3,1.3
+34,Diclofenac Sodium,15307-79-6,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],-1,1.3,1.3
+35,Anti-inflammatory agent 8,1103920-19-9,Cc1c(C(=O)NNC(=S)Nc2ccccc2)sc2nc3ccccc3n12,Cc1c(C(=O)NNC(=S)Nc2ccccc2)sc2nc3ccccc3n12,-1,0.09,0.09

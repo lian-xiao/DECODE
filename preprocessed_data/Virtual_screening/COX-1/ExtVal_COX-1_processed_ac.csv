@@ -1,23 +1,23 @@
 index,name,cas,smiles,canonical_smiles,label,IC50(nM),IC50(nM)_clean
-1,Indomethacin,53-86-1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,-1,18.0,18.0
-4,Indomethacin sodium,7681-54-1,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],-1,18.0,18.0
-5,Indomethacin sodium hydrate,74252-25-8,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,18.0,18.0
-7,Diclofenac,15307-86-5,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,4.0,4.0
-8,Diclofenac potassium,15307-81-0,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],-1,4.0,4.0
-10,Diclofenac diethylamine,78213-16-8,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,4.0,4.0
-11,Diclofenac Sodium,15307-79-6,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],-1,4.0,4.0
-15,Mofezolac,78967-07-4,COc1ccc(-c2noc(CC(=O)O)c2-c2ccc(OC)cc2)cc1,COc1ccc(-c2noc(CC(=O)O)c2-c2ccc(OC)cc2)cc1,-1,1.44,1.44
-18,Tenidap,120210-48-2,NC(=O)N1C(=O)/C(=C(\O)c2cccs2)c2cc(Cl)ccc21,NC(=O)N1C(=O)/C(=C(\O)c2cccs2)c2cc(Cl)ccc21,-1,30.0,30.0
-19,Tenidap-d3,142741-60-4,NC(=O)N1C(=O)C(C(=O)c2cccs2)c2cc(Cl)ccc21,NC(=O)N1C(=O)C(C(=O)c2cccs2)c2cc(Cl)ccc21,-1,30.0,30.0
-20,SC-560,188817-13-2,COc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(Cl)cc2)cc1,COc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(Cl)cc2)cc1,-1,9.0,9.0
-25,Lornoxicam,70374-39-9,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,-1,5.0,5.0
-27,S-(+)-Ketoprofen,22161-81-5,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,1.9,1.9
-35,FR122047,130717-51-0,COc1ccc(-c2nc(C(=O)N3CCN(C)CC3)sc2-c2ccc(OC)cc2)cc1.Cl,COc1ccc(-c2nc(C(=O)N3CCN(C)CC3)sc2-c2ccc(OC)cc2)cc1.Cl,-1,28.0,28.0
-38,Ketorolac tromethamine salt,74103-07-4,NC(CO)(CO)CO.O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,NC(CO)(CO)CO.O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,-1,20.0,20.0
-40,Eltenac,72895-88-6,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,-1,30.0,30.0
-44,Bromfenac,91714-94-2,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,-1,5.56,5.56
-45,Bromfenac sodium,91714-93-1,Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],-1,5.56,5.56
-54,Ketoprofen,22071-15-4,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,2.0,2.0
-57,Ketoprofen (RP-19583) lysinate,57469-78-0,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1.NCCCC[C@H](N)C(=O)O,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1.NCCCC[C@H](N)C(=O)O,-1,2.0,2.0
-70,Ketorolac,74103-06-3,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,-1,20.0,20.0
-73,Ketorolac hemicalcium,167105-81-9,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O.[CaH2],O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O.[CaH2],-1,20.0,20.0
+1,Indomethacin,53-86-1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1,-1,18,18
+2,Indomethacin sodium,7681-54-1,COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],COc1ccc2c(c1)c(CC(=O)[O-])c(C)n2C(=O)c1ccc(Cl)cc1.[Na+],-1,18,18
+3,Indomethacin sodium hydrate,74252-25-8,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,COc1ccc2c(c1)c(CC(=O)OC/C=C(\C)CC/C=C(\C)CCC=C(C)C)c(C)n2C(=O)c1ccc(Cl)cc1,-1,18,18
+4,Diclofenac,15307-86-5,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,4,4
+5,Diclofenac potassium,15307-81-0,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[K+],-1,4,4
+6,Diclofenac diethylamine,78213-16-8,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,CCNCC.O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl,-1,4,4
+7,Diclofenac Sodium,15307-79-6,O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],O=C([O-])Cc1ccccc1Nc1c(Cl)cccc1Cl.[Na+],-1,4,4
+8,Mofezolac,78967-07-4,COc1ccc(-c2noc(CC(=O)O)c2-c2ccc(OC)cc2)cc1,COc1ccc(-c2noc(CC(=O)O)c2-c2ccc(OC)cc2)cc1,-1,1.44,1.44
+9,Tenidap,120210-48-2,NC(=O)N1C(=O)/C(=C(\O)c2cccs2)c2cc(Cl)ccc21,NC(=O)N1C(=O)/C(=C(\O)c2cccs2)c2cc(Cl)ccc21,-1,30,30
+10,Tenidap-d3,142741-60-4,NC(=O)N1C(=O)C(C(=O)c2cccs2)c2cc(Cl)ccc21,NC(=O)N1C(=O)C(C(=O)c2cccs2)c2cc(Cl)ccc21,-1,30,30
+11,SC-560,188817-13-2,COc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(Cl)cc2)cc1,COc1ccc(-n2nc(C(F)(F)F)cc2-c2ccc(Cl)cc2)cc1,-1,9,9
+12,Lornoxicam,70374-39-9,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,CN1C(C(=O)Nc2ccccn2)=C(O)c2sc(Cl)cc2S1(=O)=O,-1,5,5
+13,S-(+)-Ketoprofen,22161-81-5,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,C[C@H](C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,1.9,1.9
+14,FR122047,130717-51-0,COc1ccc(-c2nc(C(=O)N3CCN(C)CC3)sc2-c2ccc(OC)cc2)cc1.Cl,COc1ccc(-c2nc(C(=O)N3CCN(C)CC3)sc2-c2ccc(OC)cc2)cc1.Cl,-1,28,28
+15,Ketorolac tromethamine salt,74103-07-4,NC(CO)(CO)CO.O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,NC(CO)(CO)CO.O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,-1,20,20
+16,Eltenac,72895-88-6,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,O=C(O)Cc1cscc1Nc1c(Cl)cccc1Cl,-1,30,30
+17,Bromfenac,91714-94-2,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,Nc1c(CC(=O)O)cccc1C(=O)c1ccc(Br)cc1,-1,5.56,5.56
+18,Bromfenac sodium,91714-93-1,Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],Nc1c(CC(=O)[O-])cccc1C(=O)c1ccc(Br)cc1.[Na+],-1,5.56,5.56
+19,Ketoprofen,22071-15-4,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1,-1,2,2
+20,Ketoprofen (RP-19583) lysinate,57469-78-0,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1.NCCCC[C@H](N)C(=O)O,CC(C(=O)O)c1cccc(C(=O)c2ccccc2)c1.NCCCC[C@H](N)C(=O)O,-1,2,2
+21,Ketorolac,74103-06-3,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O,-1,20,20
+22,Ketorolac hemicalcium,167105-81-9,O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O.[CaH2],O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O.[CaH2],-1,20,20
