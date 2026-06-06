@@ -12,8 +12,6 @@ Contemporary drug discovery faces a fundamental trade-off:
 DECODE bridges this gap by leveraging paired transcriptomic (L1000) and morphological (Cell Painting) data as **privileged information** during training. Through **geometric signal disentanglement** and **contrastive alignment**, DECODE extracts a measurement-invariant biological fingerprint from chemical structures, enabling scalable identification of bioactive compounds with the accuracy of phenotypic assays — without requiring biological data at inference.
 
 > **Paper:** *Empowering Chemical Structures with Biological Insights for Scalable Phenotypic Virtual Screening*
-> Xiaoqing Lian, Pengsen Ma, Tengfeng Ma, Zhonghao Ren, Xibao Cai, Zhixiang Cheng, Bosheng Song, He Wang, Xiang Pan, Yangyang Chen, Sisi Yuan, Chen Lin
-> Submitted to *Bioinformatics* (Oxford University Press)
 
 ---
 
@@ -163,7 +161,7 @@ If you use DECODE in your research, please cite our paper:
 @article{Lian2026DECODE,
   title={Empowering Chemical Structures with Biological Insights for Scalable Phenotypic Virtual Screening},
   author={Lian, Xiaoqing and Ma, Pengsen and Ma, Tengfeng and Ren, Zhonghao and Cai, Xibao and Cheng, Zhixiang and Song, Bosheng and Wang, He and Pan, Xiang and Chen, Yangyang and Yuan, Sisi and Lin, Chen},
-  journal={Bioinformatics},
+  journal={Bioinformatics Under Review},
   year={2026},
   publisher={Oxford University Press}
 }
@@ -174,13 +172,3 @@ If you use DECODE in your research, please cite our paper:
 ## Contact
 
 For questions regarding the code or datasets, please open an issue or contact:
-- Xiaoqing Lian: [lianxiaoqing@hnu.edu.cn](mailto:lianxiaoqing@hnu.edu.cn)
-- Yangyang Chen: [chen.yangyang.xp@alumni.tsukuba.ac.jp](mailto:chen.yangyang.xp@alumni.tsukuba.ac.jp)
-- Sisi Yuan: [sisiyuan@hkbu.edu.hk](mailto:sisiyuan@hkbu.edu.hk)
-- Chen Lin: [cheyenne.lin@foxmail.com](mailto:cheyenne.lin@foxmail.com)
-
----
-
-## Acknowledgements
-
-This work was supported by the National Natural Science Foundation of China (Grant No. 62432011, 62450002).
