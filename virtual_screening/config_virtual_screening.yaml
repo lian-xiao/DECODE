@@ -1,0 +1,43 @@
+# 虚拟筛选任务配置文件
+
+data:
+  train_data_path: "preprocessed_data/Virtual_screening/EP4/ChEMBL-EP4_processed_ac.csv"
+  external_val_data_path: "preprocessed_data/Virtual_screening/EP4/ExtVal_EP4_processed_ac.csv"
+  smiles_column: "canonical_smiles"
+  label_column: "label"
+  dose_column: null
+  batch_size: 16
+  num_workers: 4
+  train_split: 0.8
+  val_split: 0.1
+  test_split: 0.1
+  random_state: 42
+
+molformer:
+  model_name: "ibm/MoLFormer-XL-both-10pct"
+  hidden_dim: 512
+  learning_rate: 1.0e-4
+  freeze_backbone: false
+  dropout_rate: 0.1
+
+virtual_screening:
+  moa_model_path: ""  # 设置为预训练MOA模型路径
+  hidden_dim: 512
+  learning_rate: 1.0e-4
+  freeze_encoders: true  # 冻结所有编码器
+  dropout_rate: 0.1
+  dose_values: [0.1, 0.3, 1.0, 3.0, 10.0]  # 用于特征平均的剂量值
+
+training:
+  max_epochs: 100
+  patience: 10
+  min_delta: 1.0e-4
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  precision: 32
+  deterministic: true
+
+experiment:
+  name: "ep4_virtual_screening"
+  description: "EP4 receptor virtual screening comparison"
+  log_every_n_steps: 50

@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs and results
+logs/
+results/
+analysis_fig/
+
+# Paper and documentation artifacts
+paper_v1/
+
+# Revision experiments (specific experiment contents)
+revision_experiments/
+
+# Analysis scripts (non-core)
+analysis_scripts/
+
+# Memory and skills (tool configurations)
+memory/
+skills/
+.codex/
+
+# Large data files (GitHub 100MB limit)
+Molformer/model.safetensors
+**/feature_cache/
+*.bak_molformer
+prnet_drug_cache_*.pkl
+
+# Raw large data files (too large for GitHub)
+preprocessed_data/CDRP-BBBC047-Bray/CellPainting/
+preprocessed_data/CDRP-BBBC047-Bray/L1000/
+preprocessed_data/LINCS-Pilot1/CellPainting/
+preprocessed_data/LINCS-Pilot1/L1000/
+preprocessed_data/Virtual_screening/Cancer/primary-screen-logfold-change.csv
+preprocessed_data/Virtual_screening/Cancer/Corsello_supplemental_tables.xlsx
+*.h5
+
+# Other non-core files
+DECODE_712_New.csv
+idmap.xlsx
+retrieval_sco.log
+*.log
+
+# Models not needed
+models/components/
+models/multimodal/
+models/distangle_multimodal2/
+models/prnet/
+models/transigen/
+models/singlemodal/
+models/moa_retrieval/
+models/Midas/
+models/MultiVl/
+models/lightning_module.py
+models/losses.py
+models/conditional_vae.py
+models/single_modal_vae.py
+models/batch_retrieval_test.py
+models/merge_unified_results.py
+
+# Training scripts not needed
+train.py
+train_single_modal.py
+test.py
+generate_data.py
+
+# Configs not needed
+configs/

@@ -1,0 +1,83 @@
+# MultiModalMOAPredictor模型评估配置
+# 支持MOA预测和重建任务的多模态模型
+
+model:
+  module: "models.multimodal.multimodal_moa_predictor"  # 模型所在的模块路径
+  class: "MultiModalMOAPredictor"  # 模型类名
+  config:  # 模型初始化参数
+    # 网络结构参数
+    encoder_hidden_dims: [1024, 512]
+    simulator_hidden_dims: [512, 1024] #[512, 1024]
+    fusion_dim: 512 #1024
+    classifier_hidden_dims: [512, 256] #[512, 128]
+    dropout_rate: 0.1
+    batch_norm: true
+    activation: 'relu'
+    
+    # 剂量编码参数
+    dose_embedding_dim: 64
+    dose_scaling_method: 'gate'  # 'multiply', 'concat', 'gate'
+    
+    # 注意力机制参数
+    use_attention: true
+    attention_heads: 8
+    attention_dropout: 0.1
+    
+    use_gau_fusion: true
+    gau_layers: 2
+    gau_attention_key_size: 64
+
+    use_feature_perturbation: true
+    perturbation_noise_std: 0.05
+    perturbation_dropout_prob: 0.2
+    perturbation_curriculum_epochs: 10
+
+    # 损失函数权重
+    reconstruction_loss_weight: 0.1
+    classification_loss_weight: 1.0
+    consistency_loss_type: "contrastive"
+    consistency_loss_weight: 0.1
+    contrastive_temperature: 0.1
+    # 重建损失函数配置
+    reconstruction_loss_type: 'tabular'  # 'mse', 'mae', 'huber', 'mmd', 'tabular'
+    mmd_kernel: 'energy'
+    mmd_blur: 0.05
+    mmd_scaling: 0.5
+    mmd_downsample: 1
+    tabular_shared: 128
+    
+    # 训练参数
+    learning_rate: 0.0005
+    weight_decay: 0.0001
+    optimizer: 'adamw'  # 'adam', 'adamw'
+    scheduler: 'reduce_lr'  # 'reduce_lr', 'cosine'
+    scheduler_patience: 5
+    scheduler_factor: 0.5
+    
+    # 以下参数会自动从数据中推断
+    # drug_dim: auto
+    # dose_dim: auto
+    # rna_dim: auto  
+    # pheno_dim: auto
+    # num_moa_classes: auto
+    # moa_class_names: auto
+
+evaluator:
+  data_dir: "preprocessed_data/LINCS-Pilot1/nvs_negnormfalse_addnegcontrue"
+  dataset_name: "LINCS_dataset"
+  output_dir: "results/multimodal_moa_predictor_evaluation"
+  
+  # 数据分割配置
+  splitting_strategies: ["random", "scaffold", "plate"]
+  n_splits: 5
+  n_random_seeds: 1
+  
+  # 训练配置
+  max_epochs: 100
+  batch_size: 256
+  early_stopping_patience: 5
+  random_seed: 42
+  
+  # 保存选项
+  save_predictions: true  # 是否保存详细的预测结果（包括所有缺失场景）
+  save_models: false      # 是否保存训练好的模型

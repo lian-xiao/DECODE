@@ -1,0 +1,151 @@
+# DECODE + VideoMol Stage2 配置
+# 基于 molformer 版本调整，适配 VideoMol 384维特征空间
+# Stage2: 分类为主，is_stage1=false, classification_loss_weight=1.0
+
+model_config:
+  drug_dim: 384
+  dose_dim: 1
+  rna_dim: 978
+  pheno_dim: 1783
+  num_moa_classes: 12
+
+  multi_label_classification: false
+
+  dose_embedding_dim: 64
+  dose_scaling_method: 'gate'
+
+  encoder_hidden_dims: [512, 256]
+  simulator_hidden_dims: [256, 512]
+  fusion_dim: 192
+  classifier_hidden_dims: [256, 128]
+  dropout_rate: 0.2
+  batch_norm: true
+  activation: 'gelu'
+
+  shared_encoder_hidden_dims: [192, 96]
+  unique_encoder_hidden_dims: [192, 96]
+
+  feature_fusion_strategy: 'add_mean'
+
+  use_attention: false
+  attention_heads: 4
+  attention_dropout: 0.2
+
+  use_gau_fusion: false
+  gau_layers: 1
+  gau_attention_key_size: 64
+
+  reconstruction_loss_weight: 0.0
+  classification_loss_weight: 1.0
+  shared_contrastive_loss_weight: 0
+  orthogonal_loss_weight: 0
+
+  is_stage1: false
+
+  reconstruction_loss_type: 'tabular'
+  mmd_kernel: 'energy'
+  mmd_blur: 0.05
+  mmd_scaling: 0.5
+  mmd_downsample: 1
+
+  tabular_shared: 96
+
+  learning_rate: 0.001
+  weight_decay: 0.00001
+  optimizer: 'adamw'
+  scheduler: 'reduce_lr'
+  scheduler_patience: 5
+  scheduler_factor: 0.5
+
+data:
+  dataset_name: "normalized_variable_selected_highRepUnion_nRep2"
+  batch_size: 64
+  num_workers: 0
+  pin_memory: true
+  shuffle: true
+  split_strategy: 'plate'
+  train_split: 0.7
+  val_split: 0.1
+  test_split: 0.2
+
+  preload_features: true
+  preload_metadata: true
+  return_metadata: true
+  device: 'cpu'
+  random_seed: 42
+
+  feature_groups_only: null
+  metadata_columns_only: ['Metadata_moa', 'Metadata_Plate','Metadata_SMILES']
+
+  moa_column: 'Metadata_moa'
+  save_label_encoder: true
+
+  multi_label_classification: false
+  label_separator: '|'
+  min_label_frequency: 1
+
+  feature_group_mapping:
+    0: 'pheno'
+    1: 'rna'
+    2: 'drug'
+    3: 'dose'
+
+  normalize_features: false
+  normalization_method: 'standardize'
+  exclude_modalities: ['dose']
+  save_scalers: true
+
+
+training:
+  max_epochs: 100
+  val_check_interval: 1.0
+  gradient_clip_val: 1.0
+  accumulate_grad_batches: 1
+  precision: 32
+  independent_training: false
+  early_stopping:
+    monitor: 'val_no_missing_moa_f1_macro'
+    patience: 15
+    mode: 'max'
+    min_delta: 0.0001
+    verbose: true
+
+  checkpoint:
+    monitor: 'val_no_missing_moa_f1_macro'
+    mode: 'max'
+    save_top_k: 1
+    save_last: false
+    filename: 'multimodal-moa-{epoch:02d}-{val_no_missing_moa_f1_macro:.6f}'
+    auto_insert_metric_name: false
+
+evaluation:
+  scenarios:
+    - 'no_missing'
+    - 'pheno_missing'
+    - 'rna_missing'
+    - 'both_missing'
+
+  metrics:
+    reconstruction:
+      - 'mse'
+      - 'mae'
+      - 'rmse'
+      - 'r2'
+      - 'overall_pearson'
+      - 'sample_wise_r2_mean'
+      - 'feature_wise_r2_mean'
+
+    classification:
+      - 'accuracy'
+      - 'f1_macro'
+      - 'f1_weighted'
+      - 'precision_macro'
+      - 'recall_macro'
+      - 'roc_auc_macro'
+
+experiment:
+  name: 'multimodal_moa_prediction_videomol'
+  version: 'v1.0'
+  description: 'DECODE+VideoMol multi-modal MOA prediction (Stage2)'
+  log_every_n_steps: 50
+  save_dir: './experiments/multimodal_moa'
